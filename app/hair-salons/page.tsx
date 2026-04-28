@@ -4,17 +4,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hair Salons in Warner Robins, GA — Best Manicure & Pedicure Near You",
-  description:
-    "Find the best Hair Salons in Warner Robins, GA. Browse top-rated nail studios forcuts, color, blowouts, braids, and styling.",
-  keywords: [
-    "nail salon warner robins",
-    "Hair Salons warner robins ga",
-    "manicure warner robins",
-    "pedicure warner robins",
-    "gel nails warner robins",
-    "acrylic nails warner robins",
-  ],
+  title: "Hair Salons in Warner Robins, GA — Best Hair Stylists Near You",
+  description: "Find the best hair salons in Warner Robins, GA. Browse top-rated stylists for cuts, color, balayage, blowouts, braids, and extensions.",
+  keywords: ["hair salon warner robins", "hair salons warner robins ga", "haircut warner robins", "hair color warner robins", "balayage warner robins", "braids warner robins"],
 };
 
 interface Business {
@@ -67,31 +59,37 @@ export default function HairSalonsPage() {
     <main className="min-h-screen bg-[#0A0A0A] text-white">
 
       {/* Nav */}
-      <header className="sticky top-0 z-50 bg-[#0A0A0A]/95 backdrop-blur-sm border-b border-white/5">
+      <header className="sticky top-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b border-white/5">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <span className="text-[#D4A574] text-2xl">✦</span>
-            <span className="font-display text-xl font-semibold tracking-tight">Warner Robins Beauty</span>
+            <span className="text-xl font-semibold tracking-tight">Warner Robins Beauty</span>
           </Link>
-          <nav className="hidden md:flex gap-6 text-sm text-white/40">
+          <nav className="hidden md:flex gap-6 text-sm text-white/50">
             <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
-            <Link href="/hair-salons" className="text-[#D4A574] font-medium">Nails</Link>
-            <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link><Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link><Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
+            <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
+            <Link href="/hair-salons" className="text-[#D4A574] font-medium">Hair</Link>
+            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
+            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
+            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
+            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
+            <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
+            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
+            <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
           </nav>
         </div>
       </header>
 
       {/* Hero */}
-      <section className="bg-[#1a0f0a] text-white py-16 px-6 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: "repeating-linear-gradient(45deg, #C4856A 0, #C4856A 1px, transparent 0, transparent 50%)", backgroundSize: "12px 12px" }} />
-        <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-[#C4856A] opacity-10 blur-3xl" />
+      <section className="relative py-16 px-6 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1a0f0a] via-[#0A0A0A] to-[#0A0A0A]" />
+        <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#D4A574] opacity-[0.06] blur-[100px]" />
         <div className="relative max-w-6xl mx-auto">
           <Link href="/" className="text-[#D4A574] text-sm hover:underline mb-4 inline-block">← Back to Directory</Link>
           <p className="text-[#D4A574] text-xs font-medium tracking-widest uppercase mb-2">Warner Robins, GA</p>
-          <h1 className="font-display text-4xl md:text-5xl font-bold mb-3">Hair Salons</h1>
-          <p className="text-[#C4B89A] text-lg max-w-xl">
-            Browse {businesses.length} top-rated Hair Salons in Warner Robins —cuts, color, blowouts, braids, and styling.
+          <h1 className="text-4xl md:text-5xl font-bold mb-3">Hair Salons in Warner Robins</h1>
+          <p className="text-white/40 text-lg max-w-xl">
+            Browse {businesses.length} top-rated hair salons in Warner Robins — cuts, color, blowouts, braids, and styling.
           </p>
         </div>
       </section>
@@ -100,7 +98,7 @@ export default function HairSalonsPage() {
       <section className="border-b border-white/5 bg-white/[0.02]">
         <div className="max-w-6xl mx-auto px-6 py-4 flex flex-wrap gap-3">
           {["Haircut", "Balayage", "Color", "Blowout", "Braids", "Extensions", "Keratin", "Natural Hair"].map((s) => (
-            <span key={s} className="text-xs text-xs bg-white/5 text-white/50 border border-white/10 px-3 py-1.5 rounded-full">{s}</span>
+            <span key={s} className="text-xs bg-white/5 text-white/50 border border-white/10 px-3 py-1.5 rounded-full">{s}</span>
           ))}
         </div>
       </section>
@@ -108,7 +106,7 @@ export default function HairSalonsPage() {
       {/* Listings */}
       <div className="max-w-6xl mx-auto px-6 py-12">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="font-display text-2xl font-bold">All Hair Salons in Warner Robins</h2>
+          <h2 className="text-2xl font-bold">All Hair Salons in Warner Robins</h2>
           <span className="text-sm text-white/30">{businesses.length} listings</span>
         </div>
 
@@ -116,25 +114,19 @@ export default function HairSalonsPage() {
           {sorted.map((biz) => {
             const slug = getSlug(biz);
             return (
-              <Link
-                key={biz.id || biz.name}
-                href={`/${slug}`}
-                className="group bg-white/[0.02] rounded-xl border border-white/5 hover:border-[#C4856A] hover:shadow-lg hover:shadow-[#C4856A]/10 overflow-hidden transition-all duration-200"
-              >
-                {/* Photo */}
+              <Link key={biz.id || biz.name} href={`/${slug}`}
+                className="group bg-white/[0.02] rounded-xl border border-white/5 hover:border-[#D4A574]/30 hover:bg-white/[0.05] overflow-hidden transition-all duration-200">
                 <div className="h-44 overflow-hidden relative">
                   {biz.photoUrl ? (
-                    <img src={biz.photoUrl} alt={biz.name} className="w-full h-full object-cover" />
+                    <img src={biz.photoUrl} alt={biz.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   ) : (
-                    <div className="w-full h-full bg-gradient-to-br from-[#E8D5C4] to-[#C4856A]/30 flex items-center justify-center">
-                      <span className="text-[#D4A574] text-3xl font-display font-bold">{getInitials(biz.name)}</span>
+                    <div className="w-full h-full bg-white/5 flex items-center justify-center">
+                      <span className="text-[#D4A574] text-3xl font-bold">{getInitials(biz.name)}</span>
                     </div>
                   )}
                 </div>
-
-                {/* Info */}
                 <div className="p-5">
-                  <h3 className="font-semibold text-white group-hover:text-[#D4A574] transition-colors mb-1 leading-tight">{biz.name}</h3>
+                  <h3 className="font-semibold group-hover:text-[#D4A574] transition-colors mb-1 leading-tight">{biz.name}</h3>
                   <p className="text-xs text-white/30 mb-3 leading-relaxed">{biz.address}</p>
                   {biz.rating && (
                     <div className="flex items-center gap-2 mb-2">
@@ -142,7 +134,7 @@ export default function HairSalonsPage() {
                       <span className="text-xs text-white/40">{biz.rating} ({biz.reviewCount?.toLocaleString()})</span>
                     </div>
                   )}
-                  {biz.phone && <p className="text-xs text-white/40">{biz.phone}</p>}
+                  {biz.phone && <p className="text-xs text-white/30">{biz.phone}</p>}
                 </div>
               </Link>
             );
@@ -151,23 +143,29 @@ export default function HairSalonsPage() {
 
         {/* SEO text */}
         <div className="mt-16 pt-8 border-t border-white/5 text-white/40">
-          <h2 className="font-display text-2xl font-bold text-white mb-3">Finding the Best Nail Salon in Warner Robins, GA</h2>
-          <p className="mb-3">Warner Robins has a strong selection of Hair Salons offering everything from basic manicures and pedicures to elaborate nail art, gel extensions, and dip powder treatments. Whether you need a quick touch-up or a full nail makeover, the salons listed here are rated by real customers in the Warner Robins area.</p>
-          <p>Popular services in Warner Robins Hair Salons include gel manicures, acrylic sets, SNS dip powder, and spa pedicures. Many salons also offer nail art and custom designs. Use this directory to compare ratings, read reviews, and find the nail salon nearest to you in Warner Robins, Centerville, Bonaire, or Kathleen, GA.</p>
+          <h2 className="text-2xl font-bold text-white mb-3">Finding the Best Hair Salon in Warner Robins, GA</h2>
+          <p className="mb-3">Warner Robins has a wide variety of hair salons offering everything from precision cuts and blowouts to color treatments, balayage, and natural hair care. Whether you're looking for a quick trim or a full color transformation, the salons listed here are reviewed and rated by real customers in the Warner Robins area.</p>
+          <p>Popular services in Warner Robins hair salons include balayage, keratin treatments, extensions, braids, and custom color. Use this directory to compare ratings, read reviews, and find the hair salon nearest to you in Warner Robins, Bonaire, Kathleen, or Centerville, GA.</p>
         </div>
       </div>
 
       {/* Footer */}
-      <footer className="border-t border-white/5 bg-[#0A0A0A] py-10 px-6 mt-12">
+      <footer className="border-t border-white/5 py-10 px-6 mt-12">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-white/30">
-          <div className="flex items-center gap-2 font-display font-semibold text-white">
+          <div className="flex items-center gap-2 font-semibold text-white/70">
             <span className="text-[#D4A574]">✦</span> Warner Robins Beauty Directory
           </div>
-          <nav className="flex gap-6">
+          <nav className="flex gap-6 flex-wrap justify-center">
             <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
-            <Link href="/hair-salons" className="text-[#D4A574]">Nails</Link>
-            <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link><Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link><Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
+            <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
+            <Link href="/hair-salons" className="text-[#D4A574]">Hair</Link>
+            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
+            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
+            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
+            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
+            <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
+            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
+            <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
           </nav>
           <p>© {new Date().getFullYear()} warnerrobinsbeauty.com</p>
         </div>
