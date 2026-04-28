@@ -40,68 +40,70 @@ export default function FeaturedListing() {
 
           {/* Photo */}
           <div className="md:w-72 h-56 md:h-auto shrink-0 relative overflow-hidden">
-            <img
-              src="/waxology.jpg"
-              alt="Waxology Studio"
-              className="w-full h-full object-cover"
-            />
+            <img src="/waxology.jpg" alt="Waxology Studio" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#1a0f0a]/40" />
           </div>
 
           {/* Info */}
           <div className="flex-1 p-7 md:p-8">
-            {/* Verified + rank */}
-            <div className="flex items-center gap-2 mb-3 flex-wrap">
-              <span className="flex items-center gap-1 text-xs bg-green-500/10 text-green-400 border border-green-500/20 px-2.5 py-1 rounded-full font-medium">
-                ✓ Verified Listing
-              </span>
-              <span className="text-xs text-[#D4A574] font-medium tracking-wide uppercase">
-                #1 Brazilian Wax · Warner Robins
-              </span>
-            </div>
+            <div className="flex items-start justify-between gap-4">
+              
+              {/* Left — text info */}
+              <div className="flex-1">
+                <div className="flex items-center gap-2 mb-3 flex-wrap">
+                  <span className="flex items-center gap-1 text-xs bg-green-500/10 text-green-400 border border-green-500/20 px-2.5 py-1 rounded-full font-medium">
+                    ✓ Verified Listing
+                  </span>
+                  <span className="text-xs text-[#D4A574] font-medium tracking-wide uppercase">
+                    #1 Brazilian Wax · Warner Robins
+                  </span>
+                </div>
 
-            <h2 className="text-3xl font-bold text-white mb-1">
-              Waxology Studio
-            </h2>
-            <p className="text-white/40 text-sm mb-3">
-              154 S Houston Lake Rd #200, Warner Robins, GA 31088
-            </p>
+                <h2 className="text-3xl font-bold text-white mb-1">Waxology Studio</h2>
+                <p className="text-white/40 text-sm mb-3">154 S Houston Lake Rd #200, Warner Robins, GA 31088</p>
 
-            {/* Stars + rating */}
-            <div className="flex items-center gap-3 mb-4">
-              <span className="flex gap-0.5 text-[#D4A574] text-lg">★★★★★</span>
-              <span className="text-sm font-semibold text-white">4.7</span>
-              <span className="text-sm text-white/40">· 113 Google reviews</span>
-            </div>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="flex gap-0.5 text-[#D4A574] text-lg">★★★★★</span>
+                  <span className="text-sm font-semibold text-white">4.7</span>
+                  <span className="text-sm text-white/40">· 113 Google reviews</span>
+                </div>
 
-            {/* Hours */}
-            <div className="mb-5">
-              <p className="text-xs font-semibold text-[#D4A574]/60 uppercase tracking-widest mb-1.5">Hours</p>
-              <div className="grid grid-cols-2 gap-x-6 gap-y-0.5 text-xs text-white/40">
-                <span>Mon: Closed</span>
-                <span>Tue: 11:00 AM – 7:00 PM</span>
-                <span>Wed: 11:00 AM – 7:00 PM</span>
-                <span>Thu: 11:00 AM – 8:00 PM</span>
-                <span>Fri: 11:00 AM – 8:00 PM</span>
-                <span>Sat: 11:00 AM – 8:00 PM</span>
-                <span>Sun: 12:00 – 6:00 PM</span>
+                <div className="mb-5">
+                  <p className="text-xs font-semibold text-[#D4A574]/60 uppercase tracking-widest mb-1.5">Hours</p>
+                  <div className="grid grid-cols-2 gap-x-6 gap-y-0.5 text-xs text-white/40">
+                    <span>Mon: Closed</span>
+                    <span>Tue: 11:00 AM – 7:00 PM</span>
+                    <span>Wed: 11:00 AM – 7:00 PM</span>
+                    <span>Thu: 11:00 AM – 8:00 PM</span>
+                    <span>Fri: 11:00 AM – 8:00 PM</span>
+                    <span>Sat: 11:00 AM – 8:00 PM</span>
+                    <span>Sun: 12:00 – 6:00 PM</span>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap gap-3">
+                  <a href="http://waxologybysedra.com" target="_blank" rel="noopener noreferrer"
+                    className="bg-[#D4A574] hover:bg-[#C4956A] text-black px-6 py-2.5 rounded-full text-sm font-semibold transition-colors">
+                    Visit Website →
+                  </a>
+                  <a href="http://waxologybysedra.com" target="_blank" rel="noopener noreferrer"
+                    className="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-6 py-2.5 rounded-full text-sm font-medium transition-colors">
+                    Book Now
+                  </a>
+                  <Link href="http://waxologybysedra.com"
+                    className="border border-[#D4A574]/20 text-[#D4A574] hover:bg-[#D4A574]/5 px-6 py-2.5 rounded-full text-sm font-medium transition-colors">
+                    View Profile
+                  </Link>
+                </div>
               </div>
-            </div>
 
-            {/* CTA buttons */}
-            <div className="flex flex-wrap gap-3">
-              <a href="http://waxologybysedra.com" target="_blank" rel="noopener noreferrer"
-                className="bg-[#D4A574] hover:bg-[#C4956A] text-black px-6 py-2.5 rounded-full text-sm font-semibold transition-colors">
-                Visit Website →
-              </a>
-              <a href="http://waxologybysedra.com" target="_blank" rel="noopener noreferrer"
-                className="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-6 py-2.5 rounded-full text-sm font-medium transition-colors">
-                Book Now
-              </a>
-              <Link href="/waxology-studio"
-                className="border border-[#D4A574]/20 text-[#D4A574] hover:bg-[#D4A574]/5 px-6 py-2.5 rounded-full text-sm font-medium transition-colors">
-                View Profile
-              </Link>
+              {/* Right — Sedra's photo */}
+              <div className="hidden md:flex flex-col items-center gap-2 shrink-0 mt-8">
+                <img src="/sedra.jpg" alt="Sedra" className="w-36 h-36 rounded-full object-cover border-2 border-[#D4A574] shadow-lg" />
+                <p className="text-xs text-white/40 mt-2">Sedra</p>
+                <p className="text-xs text-[#D4A574]">Master Waxologist</p>
+              </div>
+
             </div>
           </div>
         </div>
