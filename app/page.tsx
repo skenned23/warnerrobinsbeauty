@@ -90,6 +90,7 @@ export default function HomePage() {
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
             <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
+            <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
             <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
             <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
           </nav>
@@ -192,7 +193,7 @@ export default function HomePage() {
             <span className="text-[#D4A574] text-4xl">✦</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-3">Own a Beauty Business in Warner Robins?</h2>
             <p className="text-white/40 mb-8 max-w-xl mx-auto">Get your salon or spa listed — free basic listings and premium featured placement available.</p>
-            <a href="mailto:hello@warnerrobinsbeauty.com"
+            <a href="mailto:warnerrobinsbeauty@gmail.com"
               className="inline-block bg-[#D4A574] hover:bg-[#C4956A] text-black px-8 py-4 rounded-full font-semibold transition-colors">
               Get Listed Today
             </a>
@@ -211,6 +212,7 @@ export default function HomePage() {
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
             <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
+            <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
             <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
             <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
           </nav>
