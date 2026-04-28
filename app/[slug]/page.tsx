@@ -96,7 +96,7 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
             <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link><Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
+            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link><Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link><Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
           </nav>
         </div>
       </header>
@@ -194,7 +194,7 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
             <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link><Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
+            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link><Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link><Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
           </nav>
           <p>© {new Date().getFullYear()} warnerrobinsbeauty.com</p>
         </div>
