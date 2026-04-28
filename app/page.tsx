@@ -90,13 +90,14 @@ export default function HomePage() {
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
             <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
-            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link><Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
+            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
+            <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
           </nav>
         </div>
       </header>
 
       {/* Hero */}
-      <section className="relative overflow-hidden py-28 px-6">
+      <section className="relative overflow-hidden pt-12 pb-0 px-6">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1a0f0a] via-[#0A0A0A] to-[#0A0A0A]" />
         <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-[#D4A574] opacity-[0.06] blur-[120px]" />
         <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#D4A574] opacity-[0.04] blur-[100px]" />
@@ -112,14 +113,15 @@ export default function HomePage() {
             Browse {Object.values(data).flat().length}+ verified salons, spas, and studios across Warner Robins — rated, reviewed, and ready to book.
           </p>
           <div className="flex flex-wrap gap-3">
-           <Link href="/waxing" className="bg-[#D4A574] hover:bg-[#C4956A] text-black px-7 py-3.5 rounded-full text-sm font-semibold transition-colors">Waxing</Link>
-<Link href="/nail-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Nails</Link>
-<Link href="/hair-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Hair</Link>
-<Link href="/spas" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Spas</Link>
-<Link href="/brazilian-wax" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Brazilian Wax</Link>
+            <Link href="/waxing" className="bg-[#D4A574] hover:bg-[#C4956A] text-black px-7 py-3.5 rounded-full text-sm font-semibold transition-colors">Waxing</Link>
+            <Link href="/nail-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Nails</Link>
+            <Link href="/hair-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Hair</Link>
+            <Link href="/spas" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Spas</Link>
+            <Link href="/hair-removal" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Hair Removal</Link>
+            <Link href="/brazilian-wax" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Brazilian Wax</Link>
           </div>
-          <div className="mt-16 pt-8 border-t border-white/5 flex flex-wrap gap-10 text-sm text-white/40">
-            {[["81+", "Verified Businesses"], ["5", "Beauty Categories"], ["Warner Robins", "GA & Surrounds"]].map(([val, label]) => (
+          <div className="mt-8 pt-8 border-t border-white/5 flex flex-wrap gap-10 text-sm text-white/40">
+            {[["81+", "Verified Businesses"], ["6", "Beauty Categories"], ["Warner Robins", "GA & Surrounds"]].map(([val, label]) => (
               <div key={label}>
                 <span className="block text-white text-2xl font-bold mb-0.5">{val}</span>
                 <span>{label}</span>
@@ -155,7 +157,7 @@ export default function HomePage() {
       </section>
 
       {/* Top Rated */}
-      <section className="bg-white/[0.02] border-y border-white/5 py-16 px-6">
+      <section className="bg-white/[0.02] border-y border-white/5 pt-12 pb-0 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="mb-10">
             <p className="text-[#D4A574] text-xs font-medium tracking-widest uppercase mb-2">Community Favorites</p>
@@ -209,7 +211,8 @@ export default function HomePage() {
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
             <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
-            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link><Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
+            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
+            <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
           </nav>
           <p>© {new Date().getFullYear()} warnerrobinsbeauty.com</p>
         </div>
