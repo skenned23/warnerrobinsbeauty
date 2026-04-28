@@ -26,6 +26,7 @@ interface BeautyData {
   "nail-salons": Business[];
   "hair-salons": Business[];
   spas: Business[];
+  "tanning-salons": Business[];
 }
 
 function getData(): BeautyData {
@@ -57,6 +58,7 @@ const CATEGORIES = [
   { slug: "hair-salons", label: "Hair Salons", description: "Cuts, color, styling, and treatments for every hair type.", icon: "✿", count: 19 },
   { slug: "spas", label: "Spas", description: "Full-service spas for facials, massages, and relaxation.", icon: "◉", count: 13 },
   { slug: "brazilian-wax", label: "Brazilian Wax", description: "Specialist Brazilian and bikini wax services nearby.", icon: "◆", count: null },
+  { slug: "tanning-salons", label: "Tanning Salons", description: "UV tanning, spray tans, and airbrush services nearby.", icon: "☀", count: 8 },
 ];
 
 function Stars({ rating }: { rating: number }) {
@@ -90,6 +92,9 @@ export default function HomePage() {
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
             <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
+            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
+            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
+            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
             <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
             <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
             <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
@@ -120,9 +125,10 @@ export default function HomePage() {
             <Link href="/spas" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Spas</Link>
             <Link href="/hair-removal" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Hair Removal</Link>
             <Link href="/brazilian-wax" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Brazilian Wax</Link>
+            <Link href="/tanning-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Tanning</Link>
           </div>
           <div className="mt-8 pt-8 border-t border-white/5 flex flex-wrap gap-10 text-sm text-white/40">
-            {[["81+", "Verified Businesses"], ["6", "Beauty Categories"], ["Warner Robins", "GA & Surrounds"]].map(([val, label]) => (
+            {[["89+", "Verified Businesses"], ["7", "Beauty Categories"], ["Warner Robins", "GA & Surrounds"]].map(([val, label]) => (
               <div key={label}>
                 <span className="block text-white text-2xl font-bold mb-0.5">{val}</span>
                 <span>{label}</span>
@@ -207,11 +213,14 @@ export default function HomePage() {
           <div className="flex items-center gap-2 font-semibold text-white/70">
             <span className="text-[#D4A574]">✦</span> Warner Robins Beauty Directory
           </div>
-          <nav className="flex gap-6">
+          <nav className="flex gap-6 flex-wrap justify-center">
             <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
             <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
+            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
+            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
+            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
             <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
             <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
             <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
