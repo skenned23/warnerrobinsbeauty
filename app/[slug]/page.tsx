@@ -97,6 +97,9 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
             <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
+            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
+            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
+            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
             <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
             <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
             <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
@@ -198,6 +201,9 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
             <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
+            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
+            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
+            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
             <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
             <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
             <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
