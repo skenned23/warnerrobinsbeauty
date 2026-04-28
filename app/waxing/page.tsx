@@ -1,4 +1,5 @@
 import fs from "fs";
+import FeaturedListing from "../components/FeaturedListing";
 import path from "path";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -26,6 +27,7 @@ interface Business {
   phone?: string | null;
   photoReference?: string;
   photoName?: string;
+  photoUrl?: string;
   placeId?: string;
   slug?: string;
   hours?: string[];
@@ -35,13 +37,7 @@ interface Business {
 const API_KEY = process.env.GOOGLE_API_KEY || "";
 
 function getPhotoUrl(biz: Business): string | null {
-  if (biz.photoName) {
-    return `/api/photo?name=${biz.photoName}`;
-  }
-  if (biz.photoReference) {
-    return `/api/photo?ref=${biz.photoReference}`;
-  }
-  return null;
+  return biz.photoUrl || null;
 }
 
 function getSlug(biz: Business): string {
@@ -134,85 +130,8 @@ export default function WaxingPage() {
       <div className="max-w-6xl mx-auto px-6 py-12">
 
         {/* ── Featured: Waxology Studio ──────────────────────────────────────── */}
-        {sedra && (
-          <div className="mb-12">
-            <p className="text-[#C4856A] text-xs font-medium tracking-widest uppercase mb-3">
-              Featured Studio
-            </p>
-            <div className="relative rounded-2xl border-2 border-[#C4856A] bg-gradient-to-br from-[#FDF3EE] to-[#FDFAF7] overflow-hidden">
-              <div className="absolute top-4 right-4 bg-[#C4856A] text-white text-xs font-medium tracking-widest uppercase px-3 py-1 rounded-full">
-                Featured
-              </div>
-
-              <div className="flex flex-col md:flex-row">
-                {/* Photo */}
-                <div className="md:w-72 h-52 md:h-auto shrink-0 relative overflow-hidden">
-                  {getPhotoUrl(sedra) ? (
-                    <img
-                      src={getPhotoUrl(sedra)!}
-                      alt={sedra.name}
-                      className="w-full h-full object-cover"
-                    />
-                  ) : (
-                    <div className="w-full h-full bg-[#C4856A] flex items-center justify-center">
-                      <span className="text-white text-4xl font-display font-bold">
-                        {getInitials(sedra.name)}
-                      </span>
-                    </div>
-                  )}
-                </div>
-
-                {/* Info */}
-                <div className="p-8 flex-1">
-                  <p className="text-[#C4856A] text-xs font-medium tracking-widest uppercase mb-1">
-                    #1 Brazilian Wax · Warner Robins
-                  </p>
-                  <h2 className="font-display text-3xl font-bold mb-1">{sedra.name}</h2>
-                  <p className="text-[#6B4C3B] text-sm mb-3">{sedra.address}</p>
-
-                  <div className="flex items-center gap-3 mb-4">
-                    {sedra.rating && <Stars rating={sedra.rating} />}
-                    <span className="text-sm text-[#6B4C3B]">
-                      {sedra.rating} · {sedra.reviewCount} reviews
-                    </span>
-                  </div>
-
-                  {sedra.hours && (
-                    <div className="mb-5">
-                      <p className="text-xs font-medium text-[#A0786A] uppercase tracking-wide mb-1">Hours</p>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-0.5 text-xs text-[#6B4C3B]">
-                        {sedra.hours.map((h) => (
-                          <span key={h}>{h}</span>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  <div className="flex flex-wrap gap-3">
-                    {sedra.website && (
-                      <a
-                        href={sedra.website}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="bg-[#C4856A] hover:bg-[#B5745A] text-white px-6 py-2.5 rounded-full text-sm font-medium transition-colors"
-                      >
-                        Visit Website →
-                      </a>
-                    )}
-                    {sedra.phone && (
-                      <a
-                        href={`tel:${sedra.phone}`}
-                        className="border border-[#C4856A] text-[#C4856A] hover:bg-[#C4856A]/5 px-6 py-2.5 rounded-full text-sm font-medium transition-colors"
-                      >
-                        {sedra.phone}
-                      </a>
-                    )}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
+        <FeaturedListing />
+          
 
         {/* ── All Waxing Salons ──────────────────────────────────────────────── */}
         <div>
