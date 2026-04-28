@@ -35,6 +35,7 @@ function getData(): BeautyData {
 }
 
 function getTopRated(data: BeautyData, limit = 6) {
+  const sedra = data.waxing.find((b) => b.name === "Waxology Studio");
   const all = [
     ...data.waxing.map((b) => ({ ...b, categoryLabel: "Waxing" })),
     ...data["hair-removal"].map((b) => ({ ...b, categoryLabel: "Hair Removal" })),
@@ -42,10 +43,11 @@ function getTopRated(data: BeautyData, limit = 6) {
     ...data["hair-salons"].map((b) => ({ ...b, categoryLabel: "Hair Salon" })),
     ...data.spas.map((b) => ({ ...b, categoryLabel: "Spa" })),
   ];
-  return all
-    .filter((b) => b.rating && b.reviewCount)
+  const rest = all
+    .filter((b) => b.rating && b.reviewCount && b.name !== "Waxology Studio")
     .sort((a, b) => (b.rating! * Math.log(b.reviewCount! + 1)) - (a.rating! * Math.log(a.reviewCount! + 1)))
-    .slice(0, limit);
+    .slice(0, limit - 1);
+  return sedra ? [{ ...sedra, categoryLabel: "Waxing" }, ...rest] : rest;
 }
 
 const CATEGORIES = [
