@@ -1,4 +1,4 @@
-Iimport fs from "fs";
+import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
