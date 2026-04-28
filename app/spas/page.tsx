@@ -70,6 +70,7 @@ export default function SpasPage() {
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
             <Link href="/spas" className="text-[#D4A574] font-medium">Spas</Link>
+            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
           </nav>
         </div>
       </header>

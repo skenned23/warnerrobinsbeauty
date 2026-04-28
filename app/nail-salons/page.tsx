@@ -69,7 +69,7 @@ export default function NailSalonsPage() {
             <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
             <Link href="/nail-salons" className="text-[#D4A574] font-medium">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
+            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link><Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
           </nav>
         </div>
       </header>
@@ -153,7 +153,7 @@ export default function NailSalonsPage() {
             <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
             <Link href="/nail-salons" className="text-[#D4A574]">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
+            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link><Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
           </nav>
           <p>© {new Date().getFullYear()} warnerrobinsbeauty.com</p>
         </div>
