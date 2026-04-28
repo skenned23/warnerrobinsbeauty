@@ -109,8 +109,11 @@ export default function HomePage() {
             Browse {Object.values(data).flat().length}+ verified salons, spas, and studios across Warner Robins — rated, reviewed, and ready to book.
           </p>
           <div className="flex flex-wrap gap-3">
-            <Link href="/waxing" className="bg-[#D4A574] hover:bg-[#C4956A] text-black px-7 py-3.5 rounded-full text-sm font-semibold transition-colors">Browse Waxing Salons</Link>
-            <Link href="/nail-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Nail Salons</Link>
+           <Link href="/waxing" className="bg-[#D4A574] hover:bg-[#C4956A] text-black px-7 py-3.5 rounded-full text-sm font-semibold transition-colors">Waxing</Link>
+<Link href="/nail-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Nails</Link>
+<Link href="/hair-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Hair</Link>
+<Link href="/spas" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Spas</Link>
+<Link href="/brazilian-wax" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Brazilian Wax</Link>
           </div>
           <div className="mt-16 pt-8 border-t border-white/5 flex flex-wrap gap-10 text-sm text-white/40">
             {[["81+", "Verified Businesses"], ["5", "Beauty Categories"], ["Warner Robins", "GA & Surrounds"]].map(([val, label]) => (

@@ -4,17 +4,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Spas in Warner Robins, GA — Best Manicure & Pedicure Near You",
-  description:
-    "Find the best Spas in Warner Robins, GA. Browse top-rated nail studios for massages, facials, body treatments, and relaxation.",
-  keywords: [
-    "nail salon warner robins",
-    "Spas warner robins ga",
-    "manicure warner robins",
-    "pedicure warner robins",
-    "gel nails warner robins",
-    "acrylic nails warner robins",
-  ],
+  title: "Spas in Warner Robins, GA — Best Massage & Facial Near You",
+  description: "Find the best spas in Warner Robins, GA. Browse top-rated spas for massages, facials, body treatments, and relaxation.",
+  keywords: ["spa warner robins", "massage warner robins ga", "facial warner robins", "body treatment warner robins"],
 };
 
 interface Business {
@@ -41,7 +33,7 @@ function Stars({ rating }: { rating: number }) {
   const full = Math.floor(rating);
   const half = rating - full >= 0.5;
   return (
-    <span className="flex gap-0.5 text-[#C4856A]">
+    <span className="flex gap-0.5 text-[#D4A574]">
       {Array.from({ length: 5 }, (_, i) => (
         <span key={i} className={i < full ? "opacity-100" : half && i === full ? "opacity-50" : "opacity-20"}>★</span>
       ))}
@@ -64,43 +56,43 @@ export default function SpasPage() {
   });
 
   return (
-    <main className="min-h-screen bg-[#FDFAF7] text-[#2C1810]">
+    <main className="min-h-screen bg-[#0A0A0A] text-white">
 
       {/* Nav */}
-      <header className="sticky top-0 z-50 bg-[#FDFAF7]/95 backdrop-blur-sm border-b border-[#E8D5C4]">
+      <header className="sticky top-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b border-white/5">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-[#C4856A] text-2xl">✦</span>
-            <span className="font-display text-xl font-semibold tracking-tight">Warner Robins Beauty</span>
+            <span className="text-[#D4A574] text-2xl">✦</span>
+            <span className="text-xl font-semibold tracking-tight">Warner Robins Beauty</span>
           </Link>
-          <nav className="hidden md:flex gap-6 text-sm text-[#6B4C3B]">
-            <Link href="/waxing" className="hover:text-[#C4856A] transition-colors">Waxing</Link>
-            <Link href="/spas" className="text-[#C4856A] font-medium">Nails</Link>
-            <Link href="/hair-salons" className="hover:text-[#C4856A] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#C4856A] transition-colors">Spas</Link>
+          <nav className="hidden md:flex gap-6 text-sm text-white/50">
+            <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
+            <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
+            <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
+            <Link href="/spas" className="text-[#D4A574] font-medium">Spas</Link>
           </nav>
         </div>
       </header>
 
       {/* Hero */}
-      <section className="bg-[#2C1810] text-white py-16 px-6 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: "repeating-linear-gradient(45deg, #C4856A 0, #C4856A 1px, transparent 0, transparent 50%)", backgroundSize: "12px 12px" }} />
-        <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-[#C4856A] opacity-10 blur-3xl" />
+      <section className="relative py-16 px-6 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1a0f0a] via-[#0A0A0A] to-[#0A0A0A]" />
+        <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#D4A574] opacity-[0.06] blur-[100px]" />
         <div className="relative max-w-6xl mx-auto">
-          <Link href="/" className="text-[#C4856A] text-sm hover:underline mb-4 inline-block">← Back to Directory</Link>
-          <p className="text-[#C4856A] text-xs font-medium tracking-widest uppercase mb-2">Warner Robins, GA</p>
-          <h1 className="font-display text-4xl md:text-5xl font-bold mb-3">Spas</h1>
-          <p className="text-[#C4B89A] text-lg max-w-xl">
-            Browse {businesses.length} top-rated Spas in Warner Robins — massages, facials, body treatments, and relaxation.
+          <Link href="/" className="text-[#D4A574] text-sm hover:underline mb-4 inline-block">← Back to Directory</Link>
+          <p className="text-[#D4A574] text-xs font-medium tracking-widest uppercase mb-2">Warner Robins, GA</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-3">Spas</h1>
+          <p className="text-white/40 text-lg max-w-xl">
+            Browse {businesses.length} top-rated spas in Warner Robins — massages, facials, body treatments, and relaxation.
           </p>
         </div>
       </section>
 
       {/* Services strip */}
-      <section className="border-b border-[#E8D5C4] bg-white">
+      <section className="border-b border-white/5 bg-white/[0.02]">
         <div className="max-w-6xl mx-auto px-6 py-4 flex flex-wrap gap-3">
-          {["massage", "Facial", "Body Wrap", "Hot Stone", "Aromatherapy", "Couples Spa", "Deep Tissue", "Waxing"].map((s) => (
-            <span key={s} className="text-xs bg-[#F5EBE6] text-[#C4856A] px-3 py-1.5 rounded-full font-medium">{s}</span>
+          {["Massage", "Facial", "Body Wrap", "Hot Stone", "Aromatherapy", "Couples Spa", "Deep Tissue", "Waxing"].map((s) => (
+            <span key={s} className="text-xs bg-white/5 text-white/50 border border-white/10 px-3 py-1.5 rounded-full">{s}</span>
           ))}
         </div>
       </section>
@@ -108,41 +100,35 @@ export default function SpasPage() {
       {/* Listings */}
       <div className="max-w-6xl mx-auto px-6 py-12">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="font-display text-2xl font-bold">All Spas in Warner Robins</h2>
-          <span className="text-sm text-[#A0786A]">{businesses.length} listings</span>
+          <h2 className="text-2xl font-bold">All Spas in Warner Robins</h2>
+          <span className="text-sm text-white/30">{businesses.length} listings</span>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {sorted.map((biz) => {
             const slug = getSlug(biz);
             return (
-              <Link
-                key={biz.id || biz.name}
-                href={`/${slug}`}
-                className="group bg-white rounded-xl border border-[#E8D5C4] hover:border-[#C4856A] hover:shadow-lg hover:shadow-[#C4856A]/10 overflow-hidden transition-all duration-200"
-              >
-                {/* Photo */}
+              <Link key={biz.id || biz.name} href={`/${slug}`}
+                className="group bg-white/[0.02] rounded-xl border border-white/5 hover:border-[#D4A574]/30 hover:bg-white/[0.05] overflow-hidden transition-all duration-200">
                 <div className="h-44 overflow-hidden relative">
                   {biz.photoUrl ? (
-                    <img src={biz.photoUrl} alt={biz.name} className="w-full h-full object-cover" />
+                    <img src={biz.photoUrl} alt={biz.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   ) : (
-                    <div className="w-full h-full bg-gradient-to-br from-[#E8D5C4] to-[#C4856A]/30 flex items-center justify-center">
-                      <span className="text-[#C4856A] text-3xl font-display font-bold">{getInitials(biz.name)}</span>
+                    <div className="w-full h-full bg-white/5 flex items-center justify-center">
+                      <span className="text-[#D4A574] text-3xl font-bold">{getInitials(biz.name)}</span>
                     </div>
                   )}
                 </div>
-
-                {/* Info */}
                 <div className="p-5">
-                  <h3 className="font-semibold text-[#2C1810] group-hover:text-[#C4856A] transition-colors mb-1 leading-tight">{biz.name}</h3>
-                  <p className="text-xs text-[#A0786A] mb-3 leading-relaxed">{biz.address}</p>
+                  <h3 className="font-semibold group-hover:text-[#D4A574] transition-colors mb-1 leading-tight">{biz.name}</h3>
+                  <p className="text-xs text-white/30 mb-3 leading-relaxed">{biz.address}</p>
                   {biz.rating && (
                     <div className="flex items-center gap-2 mb-2">
                       <Stars rating={biz.rating} />
-                      <span className="text-xs text-[#6B4C3B]">{biz.rating} ({biz.reviewCount?.toLocaleString()})</span>
+                      <span className="text-xs text-white/40">{biz.rating} ({biz.reviewCount?.toLocaleString()})</span>
                     </div>
                   )}
-                  {biz.phone && <p className="text-xs text-[#6B4C3B]">{biz.phone}</p>}
+                  {biz.phone && <p className="text-xs text-white/30">{biz.phone}</p>}
                 </div>
               </Link>
             );
@@ -150,24 +136,24 @@ export default function SpasPage() {
         </div>
 
         {/* SEO text */}
-        <div className="mt-16 pt-8 border-t border-[#E8D5C4] text-[#6B4C3B]">
-          <h2 className="font-display text-2xl font-bold text-[#2C1810] mb-3">Finding the Best Nail Salon in Warner Robins, GA</h2>
-          <p className="mb-3">Warner Robins has a strong selection of Spas offering everything from basic manicures and pedicures to elaborate nail art, gel extensions, and dip powder treatments. Whether you need a quick touch-up or a full nail makeover, the salons listed here are rated by real customers in the Warner Robins area.</p>
-          <p>Popular services in Warner Robins Spas include gel manicures, acrylic sets, SNS dip powder, and spa pedicures. Many salons also offer nail art and custom designs. Use this directory to compare ratings, read reviews, and find the nail salon nearest to you in Warner Robins, Centerville, Bonaire, or Kathleen, GA.</p>
+        <div className="mt-16 pt-8 border-t border-white/5 text-white/40">
+          <h2 className="text-2xl font-bold text-white mb-3">Finding the Best Spa in Warner Robins, GA</h2>
+          <p className="mb-3">Warner Robins has a great selection of spas offering everything from relaxing massages and rejuvenating facials to full body treatments and couples spa packages. Whether you need a quick escape or a full day of pampering, the spas listed here are rated by real customers in the Warner Robins area.</p>
+          <p>Popular services in Warner Robins spas include Swedish massage, deep tissue massage, hot stone therapy, and customized facials. Use this directory to compare ratings, read reviews, and find the best spa nearest to you in Warner Robins, Centerville, Bonaire, or Kathleen, GA.</p>
         </div>
       </div>
 
       {/* Footer */}
-      <footer className="border-t border-[#E8D5C4] bg-[#FDFAF7] py-10 px-6 mt-12">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-[#A0786A]">
-          <div className="flex items-center gap-2 font-display font-semibold text-[#2C1810]">
-            <span className="text-[#C4856A]">✦</span> Warner Robins Beauty Directory
+      <footer className="border-t border-white/5 py-10 px-6 mt-12">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-white/30">
+          <div className="flex items-center gap-2 font-semibold text-white/70">
+            <span className="text-[#D4A574]">✦</span> Warner Robins Beauty Directory
           </div>
           <nav className="flex gap-6">
-            <Link href="/waxing" className="hover:text-[#C4856A] transition-colors">Waxing</Link>
-            <Link href="/spas" className="text-[#C4856A]">Nails</Link>
-            <Link href="/hair-salons" className="hover:text-[#C4856A] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#C4856A] transition-colors">Spas</Link>
+            <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
+            <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
+            <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
+            <Link href="/spas" className="text-[#D4A574]">Spas</Link>
           </nav>
           <p>© {new Date().getFullYear()} warnerrobinsbeauty.com</p>
         </div>
