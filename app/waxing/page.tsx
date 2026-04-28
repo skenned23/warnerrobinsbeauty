@@ -71,7 +71,13 @@ export default function WaxingPage() {
             <Link href="/waxing" className="text-[#D4A574] font-medium">Waxing</Link>
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link><Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link><Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
+            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
+            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
+            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
+            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
+            <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
+            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
+            <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
           </nav>
         </div>
       </header>
@@ -83,7 +89,7 @@ export default function WaxingPage() {
         <div className="relative max-w-6xl mx-auto">
           <Link href="/" className="text-[#D4A574] text-sm hover:underline mb-4 inline-block">← Back to Directory</Link>
           <p className="text-[#D4A574] text-xs font-medium tracking-widest uppercase mb-2">Warner Robins, GA</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-3">Waxing Salons</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-3">Waxing Salons in Warner Robins</h1>
           <p className="text-white/40 text-lg max-w-xl">
             Browse {businesses.length} top-rated waxing studios in Warner Robins — from Brazilian wax to full body treatments.
           </p>
@@ -155,11 +161,17 @@ export default function WaxingPage() {
           <div className="flex items-center gap-2 font-semibold text-white/70">
             <span className="text-[#D4A574]">✦</span> Warner Robins Beauty Directory
           </div>
-          <nav className="flex gap-6">
+          <nav className="flex gap-6 flex-wrap justify-center">
             <Link href="/waxing" className="text-[#D4A574]">Waxing</Link>
             <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
             <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link><Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link><Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
+            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
+            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
+            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
+            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
+            <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
+            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
+            <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
           </nav>
           <p>© {new Date().getFullYear()} warnerrobinsbeauty.com</p>
         </div>
