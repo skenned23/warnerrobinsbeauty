@@ -1,0 +1,2240 @@
+{
+  "generated": "2026-04-27T22:01:18.423Z",
+  "totalBusinesses": 81,
+  "categories": {
+    "waxing": [
+      {
+        "id": "waxing-the-city-warner-robins-ga",
+        "placeId": "ChIJ7fi28Dbn84gRDW3Y2ibB4Fc",
+        "name": "Waxing The City, Warner Robins, GA",
+        "category": "waxing",
+        "address": "6011 Watson Blvd Ste. 370, Byron, GA 31008, USA",
+        "phone": "(478) 654-5124",
+        "website": "https://www.waxingthecity.com/locations/w301/us/ga/warner-robins/?utm_source=google&utm_medium=organic-businesslisting&utm_campaign=gbp-listing",
+        "rating": 5,
+        "reviewCount": 295,
+        "hours": [
+          "Monday: 9:00 AM – 6:00 PM",
+          "Tuesday: 9:00 AM – 6:00 PM",
+          "Wednesday: Closed",
+          "Thursday: 9:00 AM – 6:00 PM",
+          "Friday: 9:00 AM – 6:00 PM",
+          "Saturday: 9:00 AM – 6:00 PM",
+          "Sunday: 9:00 AM – 5:00 PM"
+        ],
+        "lat": 32.6131429,
+        "lng": -83.7131184,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest",
+          "store"
+        ]
+      },
+      {
+        "id": "the-wax-strip-warner-robins",
+        "placeId": "ChIJH6kx0c_m84gRVhfe6_GRwN8",
+        "name": "The Wax Strip Warner Robins",
+        "category": "waxing",
+        "address": "2929 Watson Blvd #4, Warner Robins, GA 31093, USA",
+        "phone": "(478) 953-0022",
+        "website": "http://thewaxstrip.com/",
+        "rating": 4.9,
+        "reviewCount": 940,
+        "hours": [
+          "Monday: 9:00 AM – 3:00 PM",
+          "Tuesday: 9:00 AM – 7:00 PM",
+          "Wednesday: 9:00 AM – 7:00 PM",
+          "Thursday: 9:00 AM – 7:00 PM",
+          "Friday: 9:00 AM – 7:00 PM",
+          "Saturday: 9:00 AM – 5:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6163666,
+        "lng": -83.68485679999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "brow-and-waxing-studio-llc",
+        "placeId": "ChIJYQFM3ef784gRDuEPKlMtnfo",
+        "name": "Brow and Waxing Studio, LLC",
+        "category": "waxing",
+        "address": "215 Carl Vinson Pkwy Suite 11, Warner Robins, GA 31088, USA",
+        "phone": null,
+        "website": "http://www.bwstudiowr.com/",
+        "rating": 5,
+        "reviewCount": 97,
+        "hours": [
+          "Monday: 11:00 AM – 5:00 PM",
+          "Tuesday: 10:00 AM – 2:00 PM",
+          "Wednesday: 10:00 AM – 7:00 PM",
+          "Thursday: 10:00 AM – 7:00 PM",
+          "Friday: 10:00 AM – 7:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5969597,
+        "lng": -83.6656084,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest",
+          "spa"
+        ]
+      },
+      {
+        "id": "waxology-studio",
+        "placeId": "ChIJKeSIyQ3h84gR91O3XOBRkmY",
+        "name": "Waxology Studio",
+        "category": "waxing",
+        "address": "154 S Houston Lake Rd #200, Warner Robins, GA 31088, USA",
+        "phone": null,
+        "website": "http://waxologybysedra.com/",
+        "rating": 4.7,
+        "reviewCount": 113,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 11:00 AM – 7:00 PM",
+          "Wednesday: 11:00 AM – 7:00 PM",
+          "Thursday: 11:00 AM – 8:00 PM",
+          "Friday: 11:00 AM – 8:00 PM",
+          "Saturday: 11:00 AM – 8:00 PM",
+          "Sunday: 12:00 – 6:00 PM"
+        ],
+        "lat": 32.6138151,
+        "lng": -83.6795112,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "southern-charm-waxing-co",
+        "placeId": "ChIJq1DHTW3f84gRrz3eLp9zvfI",
+        "name": "Southern Charm Waxing Co.",
+        "category": "waxing",
+        "address": "778 SR 96 #110, Bonaire, GA 31005, USA",
+        "phone": "(478) 313-3004",
+        "website": "http://www.southerncharmwaxing.com/",
+        "rating": 4.8,
+        "reviewCount": 161,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 10:00 AM – 7:00 PM",
+          "Wednesday: 10:00 AM – 7:00 PM",
+          "Thursday: 10:00 AM – 7:00 PM",
+          "Friday: 10:00 AM – 7:00 PM",
+          "Saturday: 10:00 AM – 5:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5528179,
+        "lng": -83.6603658,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "the-wax-strip-kathleen",
+        "placeId": "ChIJeU6tau7d84gR_jXSlcA6N_8",
+        "name": "The Wax Strip Kathleen",
+        "category": "waxing",
+        "address": "1114 SR 96 Suite C-2, Kathleen, GA 31047, USA",
+        "phone": "(478) 218-0528",
+        "website": "http://thewaxstrip.com/",
+        "rating": 4.8,
+        "reviewCount": 707,
+        "hours": [
+          "Monday: 9:00 AM – 3:00 PM",
+          "Tuesday: 9:00 AM – 7:00 PM",
+          "Wednesday: 9:00 AM – 7:00 PM",
+          "Thursday: 9:00 AM – 7:00 PM",
+          "Friday: 9:00 AM – 7:00 PM",
+          "Saturday: 9:00 AM – 5:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5471766,
+        "lng": -83.6920956,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "glow-facial-bar-laser-hair-removal",
+        "placeId": "ChIJvZuNmTrf84gRmDPSHGZorzE",
+        "name": "Glow Facial Bar & Laser Hair Removal",
+        "category": "waxing",
+        "address": "810 SR 96 #1200, Warner Robins, GA 31088, USA",
+        "phone": "(478) 359-3200",
+        "website": "https://www.theglowfacialbar.com/",
+        "rating": 4.9,
+        "reviewCount": 354,
+        "hours": [
+          "Monday: 9:00 AM – 6:00 PM",
+          "Tuesday: 9:00 AM – 6:00 PM",
+          "Wednesday: 9:00 AM – 6:00 PM",
+          "Thursday: 9:00 AM – 6:00 PM",
+          "Friday: 9:00 AM – 6:00 PM",
+          "Saturday: 9:00 AM – 6:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5536079,
+        "lng": -83.66438289999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "health",
+          "point_of_interest",
+          "spa"
+        ]
+      },
+      {
+        "id": "renewed-beauty-spa",
+        "placeId": "ChIJBVHlSVHh84gRGsI8mi8U39o",
+        "name": "Renewed Beauty & Spa",
+        "category": "waxing",
+        "address": "627 S Houston Lake Rd Suite 118, Warner Robins, GA 31088, USA",
+        "phone": "(478) 333-3676",
+        "website": "https://renewedbeautyandspa.com/",
+        "rating": 4.7,
+        "reviewCount": 72,
+        "hours": [
+          "Monday: 9:00 AM – 8:00 PM",
+          "Tuesday: 9:00 AM – 8:00 PM",
+          "Wednesday: 9:00 AM – 8:00 PM",
+          "Thursday: 10:00 AM – 8:00 PM",
+          "Friday: 9:00 AM – 8:00 PM",
+          "Saturday: 9:00 AM – 2:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5987948,
+        "lng": -83.6727308,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest",
+          "spa"
+        ]
+      },
+      {
+        "id": "as-i-am-beauty-studio-llc",
+        "placeId": "ChIJs1OBPOHh84gRJceNSWl12wA",
+        "name": "As I Am Beauty Studio LLC",
+        "category": "waxing",
+        "address": "212 Corder Rd Suite B, Warner Robins, GA 31088, USA",
+        "phone": "(478) 227-2527",
+        "website": "http://www.vagaro.com/asiambeautystudiollc",
+        "rating": 5,
+        "reviewCount": 10,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 9:00 AM – 6:00 PM",
+          "Wednesday: 9:00 AM – 6:00 PM",
+          "Thursday: 9:00 AM – 6:00 PM",
+          "Friday: 9:00 AM – 6:00 PM",
+          "Saturday: 9:00 AM – 4:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.61598430000001,
+        "lng": -83.6481415,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "sugaring-nyc-bonaire",
+        "placeId": "ChIJLVxTGwPf84gREoZ89WnFfM0",
+        "name": "Sugaring NYC - Bonaire",
+        "category": "waxing",
+        "address": "770 SR 96 Suite 225, Bonaire, GA 31005, USA",
+        "phone": "(478) 313-5353",
+        "website": "https://www.sugaringnyc.com/",
+        "rating": 5,
+        "reviewCount": 112,
+        "hours": [
+          "Monday: 10:00 AM – 6:00 PM",
+          "Tuesday: 10:00 AM – 6:00 PM",
+          "Wednesday: 10:00 AM – 6:00 PM",
+          "Thursday: 10:00 AM – 6:00 PM",
+          "Friday: 10:00 AM – 6:00 PM",
+          "Saturday: 9:00 AM – 5:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5528242,
+        "lng": -83.6582406,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "nourish-your-pretty",
+        "placeId": "ChIJ28Skrt7l-ogRQyghqbe-QNY",
+        "name": "Nourish Your Pretty",
+        "category": "waxing",
+        "address": "114 Constitution Dr Ste 300, Warner Robins, GA 31088, USA",
+        "phone": "(912) 504-0537",
+        "website": "http://nourishyourpretty.com/",
+        "rating": 4.9,
+        "reviewCount": 52,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 9:30 AM – 3:00 PM, 5:30 – 6:00 PM",
+          "Wednesday: 9:00 AM – 3:00 PM",
+          "Thursday: 9:00 AM – 3:00 PM, 5:30 – 6:00 PM",
+          "Friday: 9:30 AM – 3:00 PM, 5:30 – 6:00 PM",
+          "Saturday: 9:00 AM – 2:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6102871,
+        "lng": -83.68220149999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "health",
+          "point_of_interest",
+          "spa"
+        ]
+      },
+      {
+        "id": "b-monroe-salon-warner-robins",
+        "placeId": "ChIJ_yNK7Bbd84gRSx1ccy7B6Mw",
+        "name": "B. Monroe Salon Warner Robins",
+        "category": "waxing",
+        "address": "660 Lake Joy Rd, Kathleen, GA 31047, USA",
+        "phone": "(478) 721-4335",
+        "website": "http://www.bmonroesalon.com/",
+        "rating": 4.9,
+        "reviewCount": 948,
+        "hours": [
+          "Monday: 9:00 AM – 7:30 PM",
+          "Tuesday: 6:30 AM – 10:30 PM",
+          "Wednesday: 6:30 AM – 10:30 PM",
+          "Thursday: 6:30 AM – 10:30 PM",
+          "Friday: 8:00 AM – 7:30 PM",
+          "Saturday: 8:00 AM – 7:30 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5475196,
+        "lng": -83.69050589999999,
+        "types": [
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "the-beauty-bar-of-warner-robins-salon-llc",
+        "placeId": "ChIJ_9R2LMLh84gRrUV0Q3IpO0c",
+        "name": "The Beauty Bar of Warner Robins Salon LLC",
+        "category": "waxing",
+        "address": "281 Carl Vinson Pkwy Suite G, Warner Robins, GA 31088, USA",
+        "phone": "(478) 213-0124",
+        "website": null,
+        "rating": 5,
+        "reviewCount": 37,
+        "hours": [
+          "Monday: 9:00 AM – 5:30 PM",
+          "Tuesday: 9:00 AM – 7:00 PM",
+          "Wednesday: 9:00 AM – 6:30 PM",
+          "Thursday: 9:00 AM – 6:00 PM",
+          "Friday: 9:00 AM – 7:00 PM",
+          "Saturday: 9:00 AM – 5:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6012363,
+        "lng": -83.6657367,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "spa-twenty-two",
+        "placeId": "ChIJJzYUcvTn84gRFoZm7gHiXgk",
+        "name": "Spa Twenty Two",
+        "category": "waxing",
+        "address": "225 Smithville Church Rd suite 300, Warner Robins, GA 31088, USA",
+        "phone": "(478) 333-2210",
+        "website": "http://spatwentytwo.com/",
+        "rating": 4.6,
+        "reviewCount": 103,
+        "hours": [
+          "Monday: 10:00 AM – 4:00 PM",
+          "Tuesday: 10:00 AM – 7:00 PM",
+          "Wednesday: 10:00 AM – 7:00 PM",
+          "Thursday: 10:00 AM – 7:00 PM",
+          "Friday: 10:00 AM – 7:00 PM",
+          "Saturday: 10:00 AM – 7:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6095462,
+        "lng": -83.6829587,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest",
+          "spa"
+        ]
+      },
+      {
+        "id": "maks-salon-esthetics-eyebrow-threading",
+        "placeId": "ChIJP0OJOML784gRrGudepHk_g8",
+        "name": "Maks salon & Esthetics (Eyebrow Threading)",
+        "category": "waxing",
+        "address": "4025 Watson Blvd #210, Warner Robins, GA 31093, USA",
+        "phone": "(478) 318-8894",
+        "website": "http://makssalonesthetics.glossgenius.com/",
+        "rating": 4.8,
+        "reviewCount": 96,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 10:00 AM – 6:00 PM",
+          "Wednesday: 10:00 AM – 6:00 PM",
+          "Thursday: 10:00 AM – 6:00 PM",
+          "Friday: 10:00 AM – 4:00 PM",
+          "Saturday: 10:00 AM – 5:00 PM",
+          "Sunday: 10:00 AM – 4:00 PM"
+        ],
+        "lat": 32.6151561,
+        "lng": -83.6965805,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "halo-salon-beauty-bar",
+        "placeId": "ChIJp43tlCHn84gRNbMvjfaKT4o",
+        "name": "Halo Salon & Beauty Bar",
+        "category": "waxing",
+        "address": "3421 US-41 Suite #1300, Byron, GA 31008, USA",
+        "phone": "(404) 984-5414",
+        "website": null,
+        "rating": 4.8,
+        "reviewCount": 37,
+        "hours": [
+          "Monday: 10:00 AM – 8:00 PM",
+          "Tuesday: 8:00 AM – 7:30 PM",
+          "Wednesday: 8:00 AM – 8:00 PM",
+          "Thursday: 7:45 AM – 8:00 PM",
+          "Friday: 7:30 AM – 9:00 PM",
+          "Saturday: 7:00 AM – 7:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6181202,
+        "lng": -83.710038,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "rad-retro-beauty-studios",
+        "placeId": "ChIJj4JnwlXh84gRdziyYRLb5EA",
+        "name": "Rad & Retro Beauty Studios",
+        "category": "waxing",
+        "address": "4501 Russell Pkwy STE 25, Warner Robins, GA 31088, USA",
+        "phone": "(478) 212-4115",
+        "website": "https://linktr.ee/radretro.beautystudios",
+        "rating": 5,
+        "reviewCount": 45,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 11:00 AM – 6:00 PM",
+          "Wednesday: Closed",
+          "Thursday: 11:00 AM – 6:00 PM",
+          "Friday: 11:00 AM – 6:00 PM",
+          "Saturday: 12:00 – 5:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.579828,
+        "lng": -83.70747999999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-vZLk8k0ZwgcYnjg9abLpX4srXD_PiMXvIzRvkGZZmCwRiZZ0Qa2-b88RGXPfciKQaDQLHYTrqIa_eBHU8r_yyOGCesNjN-UGJy9ehqKi6uudQm772fo51xnqFnlUqd9UZlshe62aV8vqvvAUTiql556b-ArBJBnnIvxLR0jTdDw50UVEA9qhFRiJRyWh4A425MZe9oK2L7X1o7B1OwSjuzQoyYk7xCMgSs30urPWztssk_ipAkZi6UqlJP2O4WqufYI7vw-pi_kQoeFwVD2B3is-G140lMQ3WFf7Qa4Q7w7Q"
+      },
+      {
+        "id": "the-babe-cave",
+        "placeId": "ChIJPROIPWvn84gRt-MpXSViyIY",
+        "name": "The Babe Cave",
+        "category": "waxing",
+        "address": "151 S Houston Lake Rd #170, Warner Robins, GA 31088, USA",
+        "phone": "(478) 273-1627",
+        "website": "http://thebabecave478.com/",
+        "rating": 5,
+        "reviewCount": 15,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 11:00 AM – 5:00 PM",
+          "Wednesday: 11:00 AM – 5:00 PM",
+          "Thursday: 11:00 AM – 5:00 PM",
+          "Friday: 11:00 AM – 5:00 PM",
+          "Saturday: 11:00 AM – 3:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6153395,
+        "lng": -83.68183719999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest",
+          "spa"
+        ]
+      },
+      {
+        "id": "embrace-esthetics-and-waxing",
+        "placeId": "ChIJD2T6KLhxwCgRcBHLerkn3gM",
+        "name": "Embrace Esthetics and Waxing",
+        "category": "waxing",
+        "address": "201 Independence Dr, Warner Robins, GA 31088, USA",
+        "phone": "(478) 550-3948",
+        "website": "http://bio.site/embraceestheticsandwaxing",
+        "rating": 5,
+        "reviewCount": 7,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 10:00 AM – 7:00 PM",
+          "Wednesday: Closed",
+          "Thursday: 10:00 AM – 7:00 PM",
+          "Friday: 10:00 AM – 7:00 PM",
+          "Saturday: 10:00 AM – 7:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.612541,
+        "lng": -83.68196979999999,
+        "types": [
+          "establishment",
+          "point_of_interest",
+          "spa"
+        ]
+      },
+      {
+        "id": "awaken-salon-spa-aveda",
+        "placeId": "ChIJVb0oPx3g84gRU1jymjXXQlU",
+        "name": "awaken:salon:spa: AVEDA",
+        "category": "waxing",
+        "address": "402 GA-247 #2400, Bonaire, GA 31005, USA",
+        "phone": "(478) 225-6617",
+        "website": "http://www.awakensalonspa.com/",
+        "rating": 4.4,
+        "reviewCount": 168,
+        "hours": [
+          "Monday: 10:00 AM – 4:00 PM",
+          "Tuesday: 10:00 AM – 8:00 PM",
+          "Wednesday: 10:00 AM – 6:00 PM",
+          "Thursday: 10:00 AM – 8:00 PM",
+          "Friday: 10:00 AM – 6:00 PM",
+          "Saturday: 9:00 AM – 4:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.56715,
+        "lng": -83.5940639,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-sgEKcYCU_VQlD6grzYTQY-ieevJCBaDdKcnZSmAYfa16F2W2THVLYhNggtEZaDpqphsB2GjIK6xlfU5sqzmOWObVysvnqONs8x5Jkijp1q62TC1MA_dKCHj24jbot0KeviMCEloklfH9Vd6DqDNugdrGHYBexg9NOC7gZjFbuU6V4o4dJVxP8wjHV8_KBZziyZ58wdw1quyJC2tA1Dum5f57pe2CbZLIbX69aKzL9e6MBLfgjAgW2SQL7k7MntavgyHFkTLEk7W4N6VZfO0bQLM8IFhQEQtN_knVs-I_gWmA"
+      }
+    ],
+    "hair-removal": [
+      {
+        "id": "southern-aesthetics",
+        "placeId": "ChIJNYkomijn84gRAMMdGvKlBno",
+        "name": "Southern Aesthetics",
+        "category": "hair-removal",
+        "address": "101 Willie Lee Pkwy Suite 200, Warner Robins, GA 31088, USA",
+        "phone": "(478) 333-1546",
+        "website": "https://sa-skin.com/",
+        "rating": 4.9,
+        "reviewCount": 287,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 9:00 AM – 5:00 PM",
+          "Wednesday: 9:00 AM – 5:00 PM",
+          "Thursday: 9:00 AM – 5:00 PM",
+          "Friday: 9:00 AM – 5:00 PM",
+          "Saturday: 9:00 AM – 5:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6138369,
+        "lng": -83.6957085,
+        "types": [
+          "establishment",
+          "health",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-utxeMV941RDh5baefNLOkI9paIl58WKTJ-7BGOy3AAY1njRghbPyWzFbz1bt1yRA4yGZ53LDZ5qe9umtkscM-MznOVkVnUBOKJhrTt23ZL9KwRvQtcydVqS2H9o2P2eSNC7dHMxJ9pHmGglTDUw08DloMCSLAvxVRYGqXL0G1wITwONJbLoLI57GbEwX0IPCpOMR8XDfs-TcLqB0TQ0DAjMZGnWCQP1b9ObySbUm3LNOnKc3AAll51lyzatM49WGvFiSldEDuj8Sq87dU46VQZ_JozbTGkPyHilPxN36uAAKlZNtslI7z58CQMSD_GxJW32G68rkLDZ7GZAW2k1rE92QhNe1BKEwFYE-dV4ON8QBJDea-wWFXU5JH1tZP0QLLpM06a6bSPXa3_Wn2b78AoKFGzmEJIyCuH-xVBfV6CQjU1"
+      },
+      {
+        "id": "milan-laser-hair-removal",
+        "placeId": "ChIJBbTuQA_h84gRKEh8ZTlpmd8",
+        "name": "Milan Laser Hair Removal",
+        "category": "hair-removal",
+        "address": "2745 Watson Blvd #200, Warner Robins, GA 31093, USA",
+        "phone": "(478) 217-2978",
+        "website": "https://milanlaser.com/locations/ga/warner-robins/2745-watson-boulevard?utm_source=gmb&utm_medium=yext",
+        "rating": 4.9,
+        "reviewCount": 178,
+        "hours": [
+          "Monday: 9:00 AM – 6:00 PM",
+          "Tuesday: 9:00 AM – 6:00 PM",
+          "Wednesday: 9:00 AM – 6:00 PM",
+          "Thursday: 9:00 AM – 6:00 PM",
+          "Friday: 8:00 AM – 5:00 PM",
+          "Saturday: 8:00 AM – 5:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6178577,
+        "lng": -83.6755027,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "health",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-v8zMAoxxNJ_J9ePv_CkwVZKgsrdt-vKBG3s3YGdAnUdoOFULyBW-2gSkPE5DictxRZ56dqlseyaeGFy3tHS2t9PAVg-tYzHkAP0YLEIX6onOcP2dJ9YsGan5_oR9LKqCZWMVLt3hPP7xYoh4Zzzy-6YmIGXKzaftOXn5WZHZtOLdE7BhJ3SyNtzQFFVJrRJRUqZIuJT4x64UZlEBeOk6OmXn3yG_NG-llKftlG_huaJFcaUhLBS9rBYjloOpNj58aAS6-9Nq1UcRDo9jiO4avSE1OCb1my66VF1D3jDhPAUg"
+      },
+      {
+        "id": "slater-aesthetics-anti-aging-warner-robins",
+        "placeId": "ChIJQW7gXEng84gRYi2nvCjvARY",
+        "name": "Slater Aesthetics & Anti-Aging Warner Robins",
+        "category": "hair-removal",
+        "address": "400 Corporate Pointe, Warner Robins, GA 31088, USA",
+        "phone": "(478) 225-2379",
+        "website": "https://slateraesthetics.com/",
+        "rating": 4.9,
+        "reviewCount": 229,
+        "hours": [
+          "Monday: 10:00 AM – 6:00 PM",
+          "Tuesday: 10:00 AM – 6:00 PM",
+          "Wednesday: 10:00 AM – 6:00 PM",
+          "Thursday: 10:00 AM – 6:00 PM",
+          "Friday: 10:00 AM – 6:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5931332,
+        "lng": -83.6150577,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "health",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-sEe7u6rHDqq6zdJnkZ-dt7qC5c_YCc4HTWHpe1RmQaSPFgAgoTvMckZDZtou0O_KLe04WwKXBGKHYOvpS5yzWIwno2PsUVRlhFbntXj06hDY0fzjXoSzsmPdSI0nGEbqx58NIBvZZ1E9xjHhdw51S9eCcciz350_NebykxZB_21JLjyNdLXc5Ph0qArzzDVy2g4L-whKlgODMmQASn2E11_gtRSsqJGRr_EJa6LgO74vWEd1m8uz9HrcnNpuMj-_m1hg8pbVYtRrasJgRcvfQrskj7MuAe61_JTncQM7u-eA"
+      },
+      {
+        "id": "flamingo-medical-spa",
+        "placeId": "ChIJgdodkjHh84gROHb2vz5uyBI",
+        "name": "Flamingo Medical Spa",
+        "category": "hair-removal",
+        "address": "1025 N Houston Rd, Warner Robins, GA 31093, USA",
+        "phone": "(478) 333-8353",
+        "website": "https://www.flamingomedispa.com/?utm_source=GBP&utm_medium=organic&utm_campaign=GoogleBusinessProfile",
+        "rating": 4.9,
+        "reviewCount": 74,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 10:00 AM – 6:00 PM",
+          "Wednesday: 10:00 AM – 6:00 PM",
+          "Thursday: 10:00 AM – 6:00 PM",
+          "Friday: 10:00 AM – 6:00 PM",
+          "Saturday: 10:00 AM – 3:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6406808,
+        "lng": -83.6419427,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "health",
+          "point_of_interest",
+          "spa",
+          "store"
+        ]
+      },
+      {
+        "id": "velvet-sylk-electrolysis-llc",
+        "placeId": "ChIJOaN2RVfn84gR9zBggtCz4O8",
+        "name": "Velvet Sylk Electrolysis LLC",
+        "category": "hair-removal",
+        "address": "3421 US-41 Suite 3100B, Byron, GA 31008, USA",
+        "phone": "(470) 749-4014",
+        "website": "http://vagaro.com/velvetsylkelectrolysis",
+        "rating": 5,
+        "reviewCount": 13,
+        "hours": [
+          "Monday: 8:00 AM – 5:00 PM",
+          "Tuesday: 8:00 AM – 5:00 PM",
+          "Wednesday: 8:00 AM – 5:00 PM",
+          "Thursday: 8:00 AM – 5:00 PM",
+          "Friday: Closed",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6181231,
+        "lng": -83.710037,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "ageless-aesthetics-med-spa",
+        "placeId": "ChIJdXYQr9vm84gRmDcyknQ4ZXs",
+        "name": "Ageless Aesthetics Med Spa",
+        "category": "hair-removal",
+        "address": "320 Margie Dr, Warner Robins, GA 31088, USA",
+        "phone": "(478) 333-2595",
+        "website": "http://www.agelessbeautyhasarrived.com/",
+        "rating": 4.4,
+        "reviewCount": 147,
+        "hours": [
+          "Monday: 9:00 AM – 5:00 PM",
+          "Tuesday: 9:00 AM – 5:00 PM",
+          "Wednesday: 9:00 AM – 5:00 PM",
+          "Thursday: 9:00 AM – 5:00 PM",
+          "Friday: 9:00 AM – 5:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6119368,
+        "lng": -83.68939619999999,
+        "types": [
+          "establishment",
+          "health",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-v-X5gTdvRkRSk1e2GsLolQoP7mspOsXd4GUx8eQq_8CpdnhipBenngc85LputrfOXz_VGwyv60d-NqNKgBIYpdSrfA2k1_htOpUBMTseA2BX99yBEZ85Pl9BeEdK3paeZqTg0HUFtlHStbDqYl066w3hB9rzEkakhFEQFrQ0YIMFq7ysKcgMIyAvRu7-ZTAJY4S47pwQd675i2hSavOUXElPgOLJkifJMwCKMojUHrvevucx3m0nTQ0scLMHvxbwATVxyDSBL76KYY13rQFMAW3rPICYo_XXpRwspz_XYVtAHfuoku2UKUoZ0NkvymXRVKqfY5pUWa0qisUR011882gEhajgtkWedhXy0VEpwylLH7gBQSxhQhirZNKootk8oL7gWu2hfYXmM_kzn6I1MoMfWhcFN_XRnZkDpxpAMaUjW0"
+      },
+      {
+        "id": "elite-aesthetics-and-wellness",
+        "placeId": "ChIJIYGh_O3n84gRY-Q-EjFQN6Q",
+        "name": "Elite Aesthetics and Wellness",
+        "category": "hair-removal",
+        "address": "102 Ed Bayer Ct Suite 120, Warner Robins, GA 31088, USA",
+        "phone": "(478) 551-1088",
+        "website": "https://eliteaesthetics.health/",
+        "rating": 5,
+        "reviewCount": 23,
+        "hours": [
+          "Monday: 9:00 AM – 5:00 PM",
+          "Tuesday: 9:00 AM – 5:00 PM",
+          "Wednesday: 9:00 AM – 5:00 PM",
+          "Thursday: 9:00 AM – 5:00 PM",
+          "Friday: 9:00 AM – 1:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6141096,
+        "lng": -83.69876649999999,
+        "types": [
+          "establishment",
+          "health",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-t-wAHw6hVhk-R3KdWKLp_W3Fa2EOWOwbLK8d6p5_8qBH4dFgOVNMBQzKTW3AXtTcYWQypcPYI2fKle2hCwAG3GmGAFcVeiJ0n8J7dj_UdKIltwXq_aNFh5tpOyES9egNiBC1juz2ezMtVN0yz7vpHcawh7gRyKyebD1b0ZIaJX9jfemP5vBvhcItkI1dVMDO7lxf44C-Ga6JXj2U8k5Jma9FtmcjVzPi_8WZUXtcs_6jF19tfB7sehkxUuWRzym8l9NbLM-ZEBcDgcYzH7OnytdPfJk7XvhO3C5Tf5ZIo4kg"
+      },
+      {
+        "id": "spa-medical",
+        "placeId": "ChIJJesJ8Hv-84gRUlmGGhcJgx0",
+        "name": "Spa Medical",
+        "category": "hair-removal",
+        "address": "556 3rd St suite b, Macon, GA 31201, USA",
+        "phone": "(478) 796-9711",
+        "website": "https://www.spamedical.com/",
+        "rating": 4.9,
+        "reviewCount": 176,
+        "hours": [
+          "Monday: 8:45 AM – 5:00 PM",
+          "Tuesday: 8:30 AM – 5:00 PM",
+          "Wednesday: 8:30 AM – 5:00 PM",
+          "Thursday: 8:30 AM – 5:00 PM",
+          "Friday: 8:30 AM – 2:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "lat": 32.8332447,
+        "lng": -83.6288364,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "health",
+          "point_of_interest",
+          "spa"
+        ]
+      },
+      {
+        "id": "float-robins",
+        "placeId": "ChIJYd5LXxHn84gRHWHw0cPaldE",
+        "name": "Float Robins",
+        "category": "hair-removal",
+        "address": "225 Smithville Church Rd #100, Warner Robins, GA 31088, USA",
+        "phone": "(478) 333-5628",
+        "website": "http://www.floatrobins.com/",
+        "rating": 4.9,
+        "reviewCount": 492,
+        "hours": [
+          "Monday: 10:00 AM – 7:00 PM",
+          "Tuesday: 10:00 AM – 5:00 PM",
+          "Wednesday: Closed",
+          "Thursday: 10:00 AM – 7:00 PM",
+          "Friday: 10:00 AM – 7:00 PM",
+          "Saturday: 10:00 AM – 7:00 PM",
+          "Sunday: 11:00 AM – 7:00 PM"
+        ],
+        "lat": 32.609201,
+        "lng": -83.6830274,
+        "types": [
+          "establishment",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-v4E9uc2g3RgjU0Da2Eki4DDMl55VuOz8nULiLaph5PquWqxvhMSi_XtvTwlcmT_Q5EdV-2ySATnRju0AIIAauyeRtil3yPgsBwWVWG2rSY4twt1eRFdFTqDyAoPoswyBC4oaIsNZNHjH4ceQ1Jz0k9dnsEgC1QU1gY8cUBwLQrJk_DT2v148DzxqrjKcyJ3-8OkaUAwt_2ad3vFRFYH8tdfvwkS7hpJLeZjCydHQCC6pi7RrKbtWSo2IabAKlSvkPfdt80xWBUGlOOaj3YMGpFoqSEzyR9i-3yYW7t_P-QfFg-SQDKcJ6vPmNS1V4nZ42iUXvhcYJWle8NRG-s6MWEshUZXUOxZq86X6Ut1wtghcvNn4uFLq3XTE8NYs69ul8RqCqDU62y4ho2mteUMg66ZQ6OWlfLUWcCL53H-dDQ-g"
+      }
+    ],
+    "nail-salons": [
+      {
+        "id": "luxury-nails",
+        "placeId": "ChIJb5Qz4gnh84gRgxnGuF80SLo",
+        "name": "Luxury Nails",
+        "category": "nail-salons",
+        "address": "1727 Watson Blvd, Warner Robins, GA 31093, USA",
+        "phone": "(478) 225-9042",
+        "website": "https://luxurynailswarnerrobins.com/",
+        "rating": 4.7,
+        "reviewCount": 1524,
+        "hours": [
+          "Monday: 9:30 AM – 8:30 PM",
+          "Tuesday: 9:30 AM – 8:30 PM",
+          "Wednesday: 9:30 AM – 8:30 PM",
+          "Thursday: 9:30 AM – 8:30 PM",
+          "Friday: 9:30 AM – 8:30 PM",
+          "Saturday: 9:30 AM – 8:30 PM",
+          "Sunday: 11:30 AM – 6:30 PM"
+        ],
+        "lat": 32.6172222,
+        "lng": -83.63499999999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "diamond-nails-salon",
+        "placeId": "ChIJyU1ff7Dh84gRoKam2F1jRQI",
+        "name": "Diamond Nails Salon",
+        "category": "nail-salons",
+        "address": "150 S Houston Lake Rd #400, Warner Robins, GA 31088, USA",
+        "phone": "(478) 971-7959",
+        "website": "https://diamondnailssalonwb.com/",
+        "rating": 4.7,
+        "reviewCount": 416,
+        "hours": [
+          "Monday: 9:30 AM – 7:30 PM",
+          "Tuesday: 9:30 AM – 7:30 PM",
+          "Wednesday: 9:30 AM – 7:30 PM",
+          "Thursday: 9:30 AM – 7:30 PM",
+          "Friday: 9:30 AM – 7:30 PM",
+          "Saturday: 9:30 AM – 7:30 PM",
+          "Sunday: 11:00 AM – 6:00 PM"
+        ],
+        "lat": 32.614331,
+        "lng": -83.6800157,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "color-nails-spa",
+        "placeId": "ChIJ0VXXTnvn84gR7m38vzeaH0k",
+        "name": "Color Nails & Spa",
+        "category": "nail-salons",
+        "address": "2764 Watson Blvd #100, Centerville, GA 31028, USA",
+        "phone": "(478) 333-1187",
+        "website": "https://colornailsspawatson.com/",
+        "rating": 4.8,
+        "reviewCount": 274,
+        "hours": [
+          "Monday: 9:30 AM – 7:30 PM",
+          "Tuesday: 9:30 AM – 7:30 PM",
+          "Wednesday: 9:30 AM – 7:30 PM",
+          "Thursday: 9:30 AM – 7:30 PM",
+          "Friday: 9:30 AM – 7:30 PM",
+          "Saturday: 9:30 AM – 7:30 PM",
+          "Sunday: 11:00 AM – 6:00 PM"
+        ],
+        "lat": 32.6188124,
+        "lng": -83.6778704,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-ugN_Y9a1ifua4UuMbAlF7Y0fZebhZf_EOw3_UtJF-WOK7Nn1IYzpTDXcLNLOoLiJu7XDrlNJUhcavCqVowMeKnyb0w7CsLhB02Vnk0Z7AAk_1pm1q3kyi56zap3IFVTss5wTlz3UYo9lXeGWvxGjDGrHjeoIHxdXwSbe92cdZ_TcXyZyN48mjdqGLMJtLYzn9yz4Ncv0VBkOMJjo8YhVo7JZOPkSmZ4_MM2GTA9YoaiitI3k7bzJx02COoUmZ92Ol0l9jlPEcyW00yVlsJl53T22-byS-PWyO2divKbgio0g"
+      },
+      {
+        "id": "golden-nails-and-spa",
+        "placeId": "ChIJ_TEpyUvh84gRZIvE4bgzDBo",
+        "name": "Golden Nails and Spa",
+        "category": "nail-salons",
+        "address": "2197 Watson Blvd R, Warner Robins, GA 31093, USA",
+        "phone": "(478) 225-2131",
+        "website": null,
+        "rating": 4.6,
+        "reviewCount": 454,
+        "hours": [
+          "Monday: 10:00 AM – 7:00 PM",
+          "Tuesday: 10:00 AM – 7:00 PM",
+          "Wednesday: 10:00 AM – 7:00 PM",
+          "Thursday: 10:00 AM – 7:00 PM",
+          "Friday: 10:00 AM – 7:00 PM",
+          "Saturday: 10:00 AM – 7:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6156038,
+        "lng": -83.6592106,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "lush-nail-spa",
+        "placeId": "ChIJiadbFuzf84gR1z88_QtgjHM",
+        "name": "Lush Nail Spa",
+        "category": "nail-salons",
+        "address": "810 SR 96 #300, Warner Robins, GA 31088, USA",
+        "phone": "(478) 359-6001",
+        "website": "https://booking.gocheckin.net/v2/7603",
+        "rating": 4,
+        "reviewCount": 442,
+        "hours": [
+          "Monday: 9:00 AM – 8:00 PM",
+          "Tuesday: 9:00 AM – 8:00 PM",
+          "Wednesday: 9:00 AM – 8:00 PM",
+          "Thursday: 9:00 AM – 8:00 PM",
+          "Friday: 9:00 AM – 8:00 PM",
+          "Saturday: 9:00 AM – 8:00 PM",
+          "Sunday: 10:00 AM – 6:00 PM"
+        ],
+        "lat": 32.55373,
+        "lng": -83.6641616,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-uYHhCZcIkTxPWkDCtn0p8wmQSG7U6HNbbJPr-VdTMdIIw7pEb9tWTKaOu97i0O3PxwLCBNrir4xcMhPTYtxzODliWPXqKpwL1GAgE4-2_WX3IFwgBxsgg3zir1VZkT7aLq0PHT1roY1OAaR34rXIT2XaoQWhnUuPyhTrFd-e8WxksPO_7TlhawNYJlsSWnt9ctLPqTdLLbqcgcl0A1Zt9WDhJgBz-RwwvDiC2z2ydpwoY5gNPhnPBz7qcgre31H1Htz-Q3Eouy5lWps_Sja5i_sSMxOk6-udtvtUKu80Z9PQ"
+      },
+      {
+        "id": "luxe-nail-spa",
+        "placeId": "ChIJzeupX8zd84gRuqyX8M3Kmmw",
+        "name": "Luxe Nail Spa",
+        "category": "nail-salons",
+        "address": "1012 SR 96 Suite 400, Warner Robins, GA 31088, USA",
+        "phone": "(478) 313-5336",
+        "website": "https://abcapp.us/feedback/appointment?appid=uzO9DkY",
+        "rating": 4,
+        "reviewCount": 98,
+        "hours": [
+          "Monday: 9:00 AM – 8:00 PM",
+          "Tuesday: 9:00 AM – 8:00 PM",
+          "Wednesday: 9:00 AM – 8:00 PM",
+          "Thursday: 9:00 AM – 8:00 PM",
+          "Friday: 9:00 AM – 8:00 PM",
+          "Saturday: 9:00 AM – 8:00 PM",
+          "Sunday: 10:00 AM – 6:00 PM"
+        ],
+        "lat": 32.5531236,
+        "lng": -83.6883661,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-t0vLjbuXGa3F2f-onIByQYMOWHsKJOtYEKX8YeS74mja4QHRx65jAeilUqa1lAAUsmsNefsUwqHWiE7heKKJhBOEoFIiNt7qKLvjc9S9Zivbq43VKY6FpGNd87BPhdF9imb5MHkSTlYDHxPZkQgW7gsOuuCSK5iOSxrtrgmYuv52yUOVrG6ouyJGFZk3rK_8LIcU0OkvSHhOFx_NUPXFIm90TjREMWCz7u6C5-kuJW3fA-OwBst_Axud1b07I4xrU3XBUEC_CoXnKc95QU26aVmf6MzEmn4FBDegzafnhvSrwP8xbI-l6V5NMd07PoVDHE5Is9dxbWsXWsXYbs13sdS8LiMWzklOmeAOAxW43ToLOcGKY_JzJtckTgiNNr2NLWODVO58q95_-A9_CSzZQ3kTd4DJEZWeuaUedtGQO9_pVciMJl89dgxSvwnU4l"
+      },
+      {
+        "id": "studio-nails-spa",
+        "placeId": "ChIJLdDa2FDg84gR1v6tBEB8rI4",
+        "name": "Studio Nails & Spa",
+        "category": "nail-salons",
+        "address": "211 Russell Pkwy suite c, Warner Robins, GA 31088, USA",
+        "phone": "(478) 225-9172",
+        "website": "http://facebook.com/studionailswr",
+        "rating": 4.5,
+        "reviewCount": 438,
+        "hours": [
+          "Monday: 9:30 AM – 6:00 PM",
+          "Tuesday: 9:30 AM – 6:00 PM",
+          "Wednesday: 9:30 AM – 6:00 PM",
+          "Thursday: 9:30 AM – 6:00 PM",
+          "Friday: 9:30 AM – 6:00 PM",
+          "Saturday: 9:30 AM – 6:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5934677,
+        "lng": -83.62861629999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-veGopVjcdUbIxEuI4vF62V0lhtKVJ93dUcWFzWJ-NMKZz25SsvJABhw0VR-X_j-i1TgJuQUQnaLhmEcDaPDGIgAgInDw4SvdTVZsTqbsTH9CoHvb4w3kWYdLpf5iM2GH1mxhzQdMxEd_3qPTxp880oKt0zbKSgkJKGvmvhRE1rkGOqmsUmSkCK6ZKSNyXHJkOX29yWpF4IbnRb_WQvD-_lf5dHPrIsfdYkLnrYIB2P-Jm7-Z7MdNlRZbqijGEUa2usWoJtIQvyADIyMIY66ixPbKl7XJSwaobM6faeXA0Irw"
+      },
+      {
+        "id": "bamboo-nails-spa",
+        "placeId": "ChIJY4HFsVHg84gRhEmtaDEvB14",
+        "name": "Bamboo Nails & Spa",
+        "category": "nail-salons",
+        "address": "206 Russell Pkwy #250, Warner Robins, GA 31088, USA",
+        "phone": "(478) 334-5679",
+        "website": "http://www.bamboospawr.com/",
+        "rating": 4.4,
+        "reviewCount": 561,
+        "hours": [
+          "Monday: 9:30 AM – 7:00 PM",
+          "Tuesday: 9:30 AM – 7:00 PM",
+          "Wednesday: 9:30 AM – 7:00 PM",
+          "Thursday: 9:30 AM – 7:00 PM",
+          "Friday: 9:00 AM – 7:00 PM",
+          "Saturday: 9:00 AM – 7:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5941913,
+        "lng": -83.6261576,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-uXj31G1HVGsBMDvHQpEENO9dwJQsc8ofIMeKVGUW1YfSLE4V5V2uWe6TBYC2BSkHFNJZZ0OkuDtrtUniBRTDUxLKqgIAXteUByMOj4jjmrZ-QrKmeE6fwJ2jRmu1E43bOAtxSQYpP9JUY7ToswI8kSL_8WN9vI2Nn_pLANHtjsQ1b9bSbnTH4Z8vu_OE8VvcwrNmAi8lipgIiR2L1BgebgwpjFfpyiuJcmmziaiWa6aki-1G8q2rGVV8RJd1vV4x59Wiv0BO-Gry1nj_Wgwidh8fAu1RK7-Cl5xqPIGTnowg"
+      },
+      {
+        "id": "queen-nail-spa",
+        "placeId": "ChIJ1XZW1cHd84gRNHZy8Qd5EqA",
+        "name": "Queen Nail & Spa",
+        "category": "nail-salons",
+        "address": "660 Lake Joy Rd suite e, Kathleen, GA 31047, USA",
+        "phone": "(478) 313-5421",
+        "website": "http://queennailspakathleen.com/",
+        "rating": 4.4,
+        "reviewCount": 252,
+        "hours": [
+          "Monday: 9:30 AM – 7:30 PM",
+          "Tuesday: 9:30 AM – 7:30 PM",
+          "Wednesday: 9:30 AM – 7:30 PM",
+          "Thursday: 9:30 AM – 7:30 PM",
+          "Friday: 9:30 AM – 7:30 PM",
+          "Saturday: 9:30 AM – 7:00 PM",
+          "Sunday: 12:00 – 6:00 PM"
+        ],
+        "lat": 32.5472564,
+        "lng": -83.69055929999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "sky-nails-spa",
+        "placeId": "ChIJrcUsoErf84gREGCWLXa2d4c",
+        "name": "Sky Nails & Spa",
+        "category": "nail-salons",
+        "address": "719 SR 96, Bonaire, GA 31005, USA",
+        "phone": "(478) 287-2127",
+        "website": "https://skynailsandspabonaire.com/",
+        "rating": 4.7,
+        "reviewCount": 429,
+        "hours": [
+          "Monday: 9:30 AM – 7:30 PM",
+          "Tuesday: 9:30 AM – 7:30 PM",
+          "Wednesday: 9:30 AM – 7:30 PM",
+          "Thursday: 9:30 AM – 7:30 PM",
+          "Friday: 9:00 AM – 8:00 PM",
+          "Saturday: 9:00 AM – 8:00 PM",
+          "Sunday: 10:00 AM – 6:00 PM"
+        ],
+        "lat": 32.5552448,
+        "lng": -83.6563135,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-uxbCKooG6nZ80E7-Lf9HXyzUWbTo9167FGRwsaUx5LSJ16Er-bLbnhIB2BvfQEhAalhfjxqRz9VPW0oWmiX4buB-_RCMbzHZS1JBqN3PGhazzkJY3D2nWMaKGZ73p0qT0MSCxW3bmMBxqCORq53811_CzZOR_z236hVdCow2cFkriE3uqWpjRm-QzYkfoU10DUjZlIaL1sGVqkSqwNSmPXCLKozd9mCU9R_BH5WcI31B8xMPH2aVhjbHlHhoY17f8iqlRVPg6hluhpVSwCSGv-fdbJ_yFPUfkUrO8Vb4aR7g"
+      },
+      {
+        "id": "hollywood-nails",
+        "placeId": "ChIJ7WJWRgnh84gRnZmpmBt5PVk",
+        "name": "Hollywood Nails",
+        "category": "nail-salons",
+        "address": "1845 Watson Blvd, Warner Robins, GA 31093, USA",
+        "phone": "(478) 328-2400",
+        "website": "https://thehollywoodnails.com/",
+        "rating": 4.4,
+        "reviewCount": 531,
+        "hours": [
+          "Monday: 10:00 AM – 7:00 PM",
+          "Tuesday: 10:00 AM – 7:00 PM",
+          "Wednesday: 10:00 AM – 7:00 PM",
+          "Thursday: 10:00 AM – 7:00 PM",
+          "Friday: 10:00 AM – 7:00 PM",
+          "Saturday: 10:00 AM – 7:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.616491,
+        "lng": -83.639209,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-tLBWXTPal08ZtINYyF3aVMghr9hTav49mw2yCh5-a147dLKAIqr57hXTdTZzR3mv5Mguh8Xz7qyNk6xuAtLpJSwnK3f0c9SaDFRIl4msxd8GFi4Mhdv3k5Dps3PtH1SqXvviQy5hul_YidEYtjT-TekHq7WP4crcu5V90v1E7s3gVU0yAVirlHGny_xS8scKnbzgZlAg4SSej-vPofidei_GE4pekWmPiI0CHOkxMaKtTEflsHQpsgg-pSfU64DSSQ56boorYP4GNEptBULuWynP5S-sRcaSBIEF9oDfUnvA"
+      },
+      {
+        "id": "vn-nails-and-spa",
+        "placeId": "ChIJ602i5Brn84gR236XJs9lx4w",
+        "name": "VN Nails and Spa",
+        "category": "nail-salons",
+        "address": "4027 Watson Blvd #250, Warner Robins, GA 31093, USA",
+        "phone": "(478) 971-7811",
+        "website": "https://vnnailsandsparobins.com/",
+        "rating": 4.5,
+        "reviewCount": 105,
+        "hours": [
+          "Monday: 10:00 AM – 7:00 PM",
+          "Tuesday: 10:00 AM – 7:00 PM",
+          "Wednesday: 10:00 AM – 7:00 PM",
+          "Thursday: 10:00 AM – 7:00 PM",
+          "Friday: 9:30 AM – 7:00 PM",
+          "Saturday: 9:30 AM – 7:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6147891,
+        "lng": -83.6982021,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-tVB5fHKY7V2fc4FQbm25uLiOI6Pr33dR_Omj4ASdWKmtCPH8xk2V2b0M085WnH1WUj66_0VKUupnlr9lIZ9MktP7BL4R8Vur1vNsaB9aUbqEVqWoUQ-dhkb6H27k6dOimSGiH3llXCE8lLV2eCbfs0L-3etoSH0K2tURvv2ymVTcV_3JKJdSNVuqnCDRqbj6UsvpkK9x68O_6iFvrqz2acuBRroOaN7X0hm73cU7hnWPz8KoOEb-n7uTwtBBSLicG5ZS0v-iGfTlp8SwG9HmuItI2-0WLG3-uMH9FRhYr5ig"
+      },
+      {
+        "id": "exquisite-nails",
+        "placeId": "ChIJs5RI-dzh84gRAG2gdA6Ah7M",
+        "name": "Exquisite Nails",
+        "category": "nail-salons",
+        "address": "3030 Watson Blvd #100, Warner Robins, GA 31093, USA",
+        "phone": "(478) 971-3232",
+        "website": "https://restoer.com/exquisite-nails",
+        "rating": 3.7,
+        "reviewCount": 664,
+        "hours": [
+          "Monday: 9:00 AM – 8:00 PM",
+          "Tuesday: 9:00 AM – 8:00 PM",
+          "Wednesday: 9:00 AM – 8:00 PM",
+          "Thursday: 9:00 AM – 8:00 PM",
+          "Friday: 9:00 AM – 8:00 PM",
+          "Saturday: 9:00 AM – 8:00 PM",
+          "Sunday: 11:00 AM – 6:00 PM"
+        ],
+        "lat": 32.6188889,
+        "lng": -83.69194440000001,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "diora-nail-lounge",
+        "placeId": "ChIJw4eV53Xn84gR6D2Jhy0fHVM",
+        "name": "Diora Nail Lounge",
+        "category": "nail-salons",
+        "address": "4993 Russell Pkwy #310, Warner Robins, GA 31088, USA",
+        "phone": "(478) 333-3888",
+        "website": null,
+        "rating": 4,
+        "reviewCount": 97,
+        "hours": [
+          "Monday: 9:00 AM – 7:30 PM",
+          "Tuesday: 9:00 AM – 7:30 PM",
+          "Wednesday: 9:00 AM – 7:30 PM",
+          "Thursday: 9:00 AM – 7:30 PM",
+          "Friday: 9:00 AM – 7:30 PM",
+          "Saturday: 9:00 AM – 7:30 PM",
+          "Sunday: 11:00 AM – 5:00 PM"
+        ],
+        "lat": 32.5789261,
+        "lng": -83.7188101,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "s-n-nails-spa",
+        "placeId": "ChIJsf97RG3d84gRxDpKYBSsAjA",
+        "name": "S&N Nails Spa",
+        "category": "nail-salons",
+        "address": "1080 SR 96 Suite# 400, Warner Robins, GA 31088, USA",
+        "phone": "(478) 987-0552",
+        "website": "https://snnnailsspa.com/",
+        "rating": 4.6,
+        "reviewCount": 198,
+        "hours": [
+          "Monday: 9:30 AM – 7:00 PM",
+          "Tuesday: 9:30 AM – 7:00 PM",
+          "Wednesday: 9:30 AM – 7:00 PM",
+          "Thursday: 9:30 AM – 7:00 PM",
+          "Friday: 9:30 AM – 7:00 PM",
+          "Saturday: 9:30 AM – 7:00 PM",
+          "Sunday: 11:00 AM – 5:00 PM"
+        ],
+        "lat": 32.5501692,
+        "lng": -83.69038320000001,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-tC8tAxQkDEXtqHjSBB_J9qhtfMTpUrK7GIdh1UEuStK87pF8pWCOKq36a-vztno4QxJQK1sjedv2WMdu-ZjtzvDdzBwqPxht774XFeNz0FmwX1ZKMA-JVOCV_NAnKJ9F6PkWuiTTixR9LcigmXmN-xlxMKuPn0JQvlWib9Ph3VnTfF-Dt_Ckq_HQVsXSwRoKrQCXWYzmK_GMryYBrlBr1wCP6zGPHpkldpp2YStr_rV8oXPjbU7tDQ2mTIka0kteS1wxIpxEfKt4Jz7YxQXeSYIXlHVe90wuu1m8TJMAyu7w"
+      },
+      {
+        "id": "juji-nail-lounge-96",
+        "placeId": "ChIJn96LVNvd84gRw0l2gj4tK94",
+        "name": "Juji Nail Lounge 96",
+        "category": "nail-salons",
+        "address": "946 SR 96 Suite D, Warner Robins, GA 31088, USA",
+        "phone": "(478) 313-5102",
+        "website": "https://bookhen.com/juji_nail_lounge_ii-87",
+        "rating": 4.9,
+        "reviewCount": 181,
+        "hours": [
+          "Monday: 9:30 AM – 6:30 PM",
+          "Tuesday: 9:30 AM – 6:30 PM",
+          "Wednesday: 9:30 AM – 6:30 PM",
+          "Thursday: 9:30 AM – 6:30 PM",
+          "Friday: 9:30 AM – 6:30 PM",
+          "Saturday: 9:30 AM – 6:00 PM",
+          "Sunday: 12:00 – 5:00 PM"
+        ],
+        "lat": 32.5541854,
+        "lng": -83.6813595,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-sGJTnjlF3Ul8o72Exk27DUaXDl2PnE0gHNxT0nEJDLU4o6J235ckPYSSxUYF5ruIiR2icwkszM7tRPfyOMvHCg_yXsG6m0a-lR0bFPP_ZfAJ46W_bQy2AaE8Tt1ZaIYQSYXTjkbgyhznEjTSIYX6zQuUifSriPKc0SIQo_O5nY0ZEcQS13gBevdw6PEfuryjQqt7O1yz3WdezgzFydC3H3R5yytc-dnYpRPtg6_K_ANZ56lZGXkOC2ueyjJMLsTCZhd7-vkc4bwwlToCBiQMtHa1a45D44H4G_Msj4-OQHjrLCyTOhXo7EXmnB40BjzAhO3hLLcnnZpGyFIhg7mw-s2ZVJ11gTbyPka569XDgi-mT0OwJF3XpOf-FTKjIbsMx9ws5uwhaefdPK6opUv95vmJFDLzQe-tOXvr9j6IjYuu5xV8sH6jiFgV_BQw"
+      },
+      {
+        "id": "star-nails",
+        "placeId": "ChIJ4ZvpS-bm84gR3Wykah-pPhM",
+        "name": "Star Nails",
+        "category": "nail-salons",
+        "address": "4088 Watson Blvd Suite 500, Warner Robins, GA 31093, USA",
+        "phone": null,
+        "website": null,
+        "rating": 4.1,
+        "reviewCount": 173,
+        "hours": [
+          "Monday: 9:30 AM – 7:30 PM",
+          "Tuesday: 9:30 AM – 7:30 PM",
+          "Wednesday: 9:30 AM – 7:30 PM",
+          "Thursday: 9:30 AM – 7:30 PM",
+          "Friday: 9:30 AM – 7:30 PM",
+          "Saturday: 9:30 AM – 7:30 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6155866,
+        "lng": -83.70295879999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-vomQKjmBQfrTQqjq3-ofscJrjms81oOKo6_oK-DXmXVTD3dWfcypNHEKmZW0zLP1_aZCi7pcS8OdS4ILUtPnE5pq3v4npv41hFvoTGTOvLDdloRQia981vfNVN_tSup9l0_hwQRK15KBGq0KJa4RIbVB0Na4mRaabR3qUG-NdyaN71jVy0lLi_pW-9ciGjZZ-wwjlnp1ksVMUsJXvPSLI5v_cWUS3C9D6-jARdmbxGBeXO6lcgRZ4zZiCVT01TZ8nLuQEiNi4JENSy_bXl-1zj46ioZHixJWxYVeau056a31ARr7J6vNxp_UyxWhaFybk7GWQnKM5f5uwrG9_KSConAaNGKxTxRoNk_jkhmoeP92_27ZyCWZ2zBWND7UMPf68gPcbsloIV1kK7s3VN3jIl3t0nO-eM4cCGl-zqjt_iJbPQ"
+      },
+      {
+        "id": "247-organic-nails-spa",
+        "placeId": "ChIJYdaNkM1f8YgRSCD_u9khaXw",
+        "name": "247 Organic Nails & Spa",
+        "category": "nail-salons",
+        "address": "89 Sandy Run Rd Unit 300, Bonaire, GA 31005, USA",
+        "phone": "(478) 236-2202",
+        "website": "https://247organicnailsnspa.com/",
+        "rating": 4.9,
+        "reviewCount": 887,
+        "hours": [
+          "Monday: 9:30 AM – 7:00 PM",
+          "Tuesday: 9:30 AM – 7:00 PM",
+          "Wednesday: 9:30 AM – 7:00 PM",
+          "Thursday: 9:30 AM – 7:00 PM",
+          "Friday: 9:30 AM – 7:00 PM",
+          "Saturday: 9:30 AM – 7:00 PM",
+          "Sunday: 11:00 AM – 5:00 PM"
+        ],
+        "lat": 32.5685958,
+        "lng": -83.5922241,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-vHMK95uuSA61-YfvGNprIFBSdi6dnfg9jyxhpwqiR08nM_XJmRJcmN991cUY0v0eY2CYkeCjNC0K35V4V035ho10YM2NTi4bmXHoscexDwuawkSbSWAiBf7eVojU77XVknMSaQfCZl0Dcstjv3qLiHuN5uj4cEuOtLT4EYV5bkl3LnOniotvaXcBPYmEFDlGtDSYEgo119rWJSQVdPrPfMCMDf9GgY2UzGyGn-X2wkaB6cJc928RbMHgkIm-gncBoGoBv9gYwVHrhuP78bYJqiNqSvP9Adxuu9kl0QtFdhIw"
+      },
+      {
+        "id": "le-s-nails-spa",
+        "placeId": "ChIJXyjbMNPm84gRik58210cHSs",
+        "name": "Le’s Nails & Spa",
+        "category": "nail-salons",
+        "address": "198 S Houston Lake Rd, Warner Robins, GA 31088, USA",
+        "phone": "(478) 333-6895",
+        "website": null,
+        "rating": 4.2,
+        "reviewCount": 193,
+        "hours": [
+          "Monday: 9:30 AM – 6:00 PM",
+          "Tuesday: 9:30 AM – 6:00 PM",
+          "Wednesday: 9:30 AM – 6:00 PM",
+          "Thursday: 9:30 AM – 6:00 PM",
+          "Friday: 9:30 AM – 6:00 PM",
+          "Saturday: 9:30 AM – 6:00 PM",
+          "Sunday: 9:30 AM – 6:00 PM"
+        ],
+        "lat": 32.6119346,
+        "lng": -83.6779743,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-svDqNZA7WxJKIZH-Y-uKNwVyBYM8voXtp2cw796gfmoWs7DoIlrAuwaIYBl0dVga-MtyIM9GRR6liruxxalqjTpNT7lUYANR-A5Uc_WizigkEIypJxPCruGuxEhySYT2XKjyTa_5Ao3b3Bwc1ZY_R9ipkwrxwXGIUmnE75umIHgEF1wILORDd3eL9i5MNtQ86cH0aM89oggbVinlZZKIGEVnaKLqkDSZj3Ec4rQIy0qleMZGsxq0IAThwVUDxMPOD-9dTi-8eAN1uGuQ3VXbNxYIzrwBw2fDFGRr_W_A4"
+      },
+      {
+        "id": "relax-nail-spa",
+        "placeId": "ChIJnyMiM-nn84gRi7v5ik01Hto",
+        "name": "RELAX NAIL SPA",
+        "category": "nail-salons",
+        "address": "4088 Watson Blvd, Warner Robins, GA 31093, USA",
+        "phone": "(478) 333-5757",
+        "website": "https://relaxnailspawarnerrobins.com/",
+        "rating": 5,
+        "reviewCount": 1,
+        "hours": [],
+        "lat": 32.6156075,
+        "lng": -83.7028899,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ]
+      }
+    ],
+    "hair-salons": [
+      {
+        "id": "salon-inspiration-studio",
+        "placeId": "ChIJJ50GiW7h84gRRizIWXcYouk",
+        "name": "Salon Inspiration Studio",
+        "category": "hair-salons",
+        "address": "494 Booth Rd Suite b, Warner Robins, GA 31088, USA",
+        "phone": "(478) 334-9886",
+        "website": "http://saloninspirationstudio.com/",
+        "rating": 4.9,
+        "reviewCount": 70,
+        "hours": [
+          "Monday: 8:00 AM – 8:00 PM",
+          "Tuesday: 8:00 AM – 8:00 PM",
+          "Wednesday: 8:00 AM – 8:00 PM",
+          "Thursday: 8:00 AM – 8:00 PM",
+          "Friday: 8:00 AM – 8:00 PM",
+          "Saturday: 8:00 AM – 8:00 PM",
+          "Sunday: 8:00 AM – 8:00 PM"
+        ],
+        "lat": 32.5920491,
+        "lng": -83.6144424,
+        "types": [
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-tvhsVhcFlqzvGaiZxH8i59GLLOif9F7ylo3sx906xhdg4mZyxKPKnTKTtlDm8J8oZSAcNfDcmMm-wnlxBQjT5CMYdfmiZ4NikZNF1BHG1OPh4bZ0MaCRo5GvrhBFN6xb_zguanmh3ctpA4_TaSpo4xe0lloaROnn4mAiVni1h47bd3NOlm_c7EVGpE_kYcUuBK7A8zBpZJq5-TDwLraOUEuHNHvrhhQnSi6lhM3I3ZfXSWZc9ClT-szbSfQUVxTzy2ne1nIIj0VKLcxII6UiGeKMVEEQ0wF-8uGt1R6DG7arrLTNXW0YU98q7adeDMW5C6FRM38X6L5hxEcXE4vMxCQQw3uTI4fi88fsmn_q2EpCTLOaZFYipmMhO-gjx7uEj1DYTm1jo-pcO84IqpTd8ARscGFWkSerOdgFU-szfK32dBV58BaJC0jStPdA"
+      },
+      {
+        "id": "high-maintenance-salon-suites",
+        "placeId": "ChIJMwI2xtng84gRJuS4MBBwh-c",
+        "name": "High Maintenance Salon Suites",
+        "category": "hair-salons",
+        "address": "994 Lake Joy Rd, Warner Robins, GA 31088, USA",
+        "phone": "(478) 922-2222",
+        "website": "https://app.squareup.com/appointments/book/36htqba0gurhl9/EKZW8T61NNACH/start",
+        "rating": 4.7,
+        "reviewCount": 337,
+        "hours": [],
+        "lat": 32.5783292,
+        "lng": -83.6938584,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-uZRpDdRN4adxnE9SiK2NbZHRKB8J55Mlk5XfEg1QRLtg88xG34oqh4vB7LsexwN-vwA8L61xivpvG5sdeum-LzjGmt7iYcLqfooM-EZKRxQ1-ioOSlf7OYrpMW8wjb6Bd_VhHfsdWpAAlg1CDQE_GK0tjGmPpoFv6jCyT1nkp-tCsoLiM2YQuyDT8IoBjKwwCyGN6NeX3RSGyYivXKCobBcC1GF-_Zh8EoNmdDm-Mf2CQIzBgvCShzmBY7zFmOCbMZhsVvi4luD5oQE_l1Ei2MChkz4AXHY6M1_OZ9yjbAFLEv1SuQoRfiezGKknhOdO1rkn6m8BBX20y4WKDe1HUVlaer3Qg1sHApQJHt98I4h9FYjCuJNx6adtA88r237wLMfPqv7l8b6P-v_QWsd3KN_k6eNh098YIxu_qb2t_V9tU"
+      },
+      {
+        "id": "a-list-salon",
+        "placeId": "ChIJwRcc1MPh84gRRnYzlYvepEA",
+        "name": "A List Salon",
+        "category": "hair-salons",
+        "address": "524 S Houston Lake Rd Suite C200, Warner Robins, GA 31088, USA",
+        "phone": "(478) 333-1969",
+        "website": "http://www.alisthairsalon.com/",
+        "rating": 5,
+        "reviewCount": 49,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 10:00 AM – 6:00 PM",
+          "Wednesday: 10:00 AM – 6:00 PM",
+          "Thursday: 10:00 AM – 6:00 PM",
+          "Friday: 10:00 AM – 6:00 PM",
+          "Saturday: 10:00 AM – 6:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6041755,
+        "lng": -83.67327879999999,
+        "types": [
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-s8gktPWmpZuyVoEqiRJO-TvEyhM8tp7ePJTEptG1CoPV-4iKM6FHt8Otw-sLBfV08TvK5UKQALkQe-z2Ci9ehPISJY_6ADdaeNUhgzVhXRKHUu49Z8GWoxRNK_i65gMxuCMXMnjyO0BN00R7X_eKIBd89cTCO8VJUz5l9o_j2NnMc-JCSU5tCDB07LvHC3xxLjnOw5OUcnvFnMvLMwe4f99-0h-dR-w-FJLYQzxebYds79003g1NESYLn-gC3raSJu9mgjH3y_N8jS_CjwhCYXaFONwI7t4IHaZG7wXyPfQQ"
+      },
+      {
+        "id": "fringe-salon",
+        "placeId": "ChIJt82FvNrg84gRCjQY8QLWBVY",
+        "name": "Fringe Salon",
+        "category": "hair-salons",
+        "address": "1806 Russell Pkwy # 500, Warner Robins, GA 31088, USA",
+        "phone": "(478) 208-4053",
+        "website": "https://www.fringesalonwarnerrobins.com/",
+        "rating": 4.5,
+        "reviewCount": 106,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 9:00 AM – 7:00 PM",
+          "Wednesday: 9:00 AM – 7:00 PM",
+          "Thursday: 9:00 AM – 7:00 PM",
+          "Friday: 9:00 AM – 7:00 PM",
+          "Saturday: 9:00 AM – 7:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5937924,
+        "lng": -83.66621789999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-t3-KcSKLlvz91uadaau0kqIRy9rKfxpaWt-8x0sIE7wTXZNR78AP2Fe4HedBJlyflttkA7VLjPuG7MK37aEwk1wRW5e3NQTcvfjJiQfc_RtG3ofbVGwbV8AZPiLpRs_FoE1nRKVPsTrJ0KyzIZIfTGbv5bWqzrhTEqphc3kxFp9n_VLoWvQ4Ht-Vm3LaE7qYOn6syz4mpnaBv0zPLqgObWowHiFzCjccdiul9AJoGby3gTDf1BsgCSOANpf9eWW1MbxzQZHlSSGhYp-SXCiu6TwOVLeOtPbgO87NCUBwDjOWhKv56xNqfmYUK7EC1df6WS10QRifyI0Ul7McSi-Cv5KXf76PhQGYXyw9fkaNEXRF9ydvkiMELxwdHAm0VqTbT3ywmZ2pwks8pRJNjtPQfdwaQ9IiTPO6aLCsyb25aBvUg"
+      },
+      {
+        "id": "j-andrews-salon",
+        "placeId": "ChIJ79F_od3m84gRSzJzkHvkiWQ",
+        "name": "J Andrews Salon",
+        "category": "hair-salons",
+        "address": "500 Osigian Blvd #600, Warner Robins, GA 31088, USA",
+        "phone": "(478) 971-0747",
+        "website": "http://www.jandrewssalonwr.net/",
+        "rating": 4.8,
+        "reviewCount": 101,
+        "hours": [
+          "Monday: 10:00 AM – 5:00 PM",
+          "Tuesday: 10:00 AM – 5:00 PM",
+          "Wednesday: Closed",
+          "Thursday: 10:00 AM – 5:00 PM",
+          "Friday: 10:00 AM – 5:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6133735,
+        "lng": -83.6970584,
+        "types": [
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "hair-company",
+        "placeId": "ChIJn_Bmtfrg84gRswSEgJiQU5Y",
+        "name": "Hair & Company",
+        "category": "hair-salons",
+        "address": "1107 Russell Pkwy, Warner Robins, GA 31088, USA",
+        "phone": "(478) 929-8722",
+        "website": null,
+        "rating": 4.6,
+        "reviewCount": 200,
+        "hours": [],
+        "lat": 32.5929565,
+        "lng": -83.64525599999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-vdYdnfNv4Xw_fhcweheK5smoraVddrUWDrkxobRl3G5NrIIORt-fc29VK1CjjD7e8e-zP66VkgCQuub3CnFEhUqzhe02cY7hwsdkvZYRuqHxhvKIHWtCg9DMHUPZupY22R4E9zqvsIGxTjDntYLXD-L8QXWt_WQMHIK-Rm7yoSNL5VNjtNYLET8eM1gwRqsOVAp9k6HtyXfgmylQ2H-z8BkOMfLTMh4z66CP4A2ygEpAYqgZIaMRFa3rGlXrOuBFlu_5megOqxLopD4jpoAN02IPwI-vupAMhr3GIXCt9dtKE4z4s6fmA_110wIBj0CMgOT2NXoL66nnhpciMLeE0uopvXFqprQA6KkzTJck8R1n1TfzMiu4Qg_PicsxZzTuyfqiqZhAI_v3rEWjZDTcyDn2XxFqf6HtsnxdO8l1Ii7g"
+      },
+      {
+        "id": "angel-s-hair-salon",
+        "placeId": "ChIJEVeLr7_h84gRR8AtSQukwt0",
+        "name": "ANGEL'S HAIR SALON",
+        "category": "hair-salons",
+        "address": "1105 Russell Pkwy suit D2, Warner Robins, GA 31088, USA",
+        "phone": "(561) 309-6486",
+        "website": null,
+        "rating": 5,
+        "reviewCount": 97,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: 9:00 AM – 7:00 PM",
+          "Thursday: 9:00 AM – 7:00 PM",
+          "Friday: 9:00 AM – 7:00 PM",
+          "Saturday: 9:00 AM – 8:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5934209,
+        "lng": -83.64510659999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "kingdom-cute-hair-salon",
+        "placeId": "ChIJaUwLmOfg84gRUl9HmQAdrfg",
+        "name": "Kingdom Cute Hair Salon",
+        "category": "hair-salons",
+        "address": "1508 Russell Pkwy, Warner Robins, GA 31088, USA",
+        "phone": "(478) 957-0263",
+        "website": "https://www.kingdomcute.hair/",
+        "rating": 5,
+        "reviewCount": 28,
+        "hours": [
+          "Monday: 5:00 AM – 3:00 PM",
+          "Tuesday: 5:00 AM – 3:00 PM",
+          "Wednesday: 5:00 AM – 3:00 PM",
+          "Thursday: 5:00 AM – 3:00 PM",
+          "Friday: 5:00 AM – 3:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5942526,
+        "lng": -83.6548183,
+        "types": [
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-sECiPq0M2o_0XjejAKAXW_BLp81TSJSCSnF1oxFA9Njwx9YAZitKQuVsVuye-82HguNHkzbehnkseshryZKCWCf7LmN1zepECr1qYNfpdW7DW0SVeaINCSoX2iw1tD-I3yIKXp2ySv-TWCErlQU8lCpDmHiT_igXl_tUVNw2V_g-ttpxFZi0qH0WbRYrgx0XeRL2yK4DcICEKDU932izZAsEzOy6wxJj5uC6uTqqc7Jx2pf8Bl8aYPWCpclW4MjN0jaLtHe_1zWWOwP_PUl6W7eDm0CeVKLpBb-ArMOEWDWw"
+      },
+      {
+        "id": "hairitage-house-hair-salon-llc-and-hair-restoration",
+        "placeId": "ChIJefx-Pibb84gR2_myNkrazY8",
+        "name": "Hairitage House Hair Salon, LLC and Hair Restoration",
+        "category": "hair-salons",
+        "address": "4501 Russell Pkwy Suite #9, Warner Robins, GA 31088, USA",
+        "phone": "(478) 599-9696",
+        "website": "http://hairitagehousewr.com/",
+        "rating": 5,
+        "reviewCount": 74,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 9:00 AM – 6:00 PM",
+          "Wednesday: 9:00 AM – 8:00 PM",
+          "Thursday: Closed",
+          "Friday: 9:00 AM – 6:00 PM",
+          "Saturday: 8:00 AM – 3:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.580487,
+        "lng": -83.7072647,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-su56wPFelFiZIfNdY0YpZAYx6CtaU5SvMgZ-SOqCwQEqxPM4I-BUPL8GEiR_7EqnEzZKO4hqDEy8qhcHd9O75eTxtxirJ8PBXVOCJN8HKOMjUvmNUQsJDGRsmmoFt3jqwPcjW8WUr_rjbpTr24WpEz2-Cw2SB0VZepAmNULwu_uq2crPJN3sFL2CXU5m8mWs1mNsfrdCLX_6f_g2pESOFBNGTEV0TSK2WgeUFUgHAVzfQlYCI9Z1k1t6y55w_xC3I962nqe8I3HzVFFwNT4otgTI-QB5DuTqC9nFIwt3ArVw"
+      },
+      {
+        "id": "colours-salon",
+        "placeId": "ChIJiyl1OTDh84gR0zG7SeN4vTI",
+        "name": "Colours Salon",
+        "category": "hair-salons",
+        "address": "1269 S Houston Lake Rd, Warner Robins, GA 31088, USA",
+        "phone": "(478) 988-4000",
+        "website": "https://www.facebook.com/Colours-Salon-213075315399606/",
+        "rating": 4.8,
+        "reviewCount": 89,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 10:30 AM – 5:00 PM",
+          "Wednesday: 10:30 AM – 5:00 PM",
+          "Thursday: 10:30 AM – 5:00 PM",
+          "Friday: 10:30 AM – 5:00 PM",
+          "Saturday: 10:30 AM – 3:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5618569,
+        "lng": -83.66272459999999,
+        "types": [
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-vgW4jrvUtAPpJz_T0_2cE4iac6QwmiK8usg-Kl_hSSBgNv5k3nPysPaVo1TmAOU7twaTrOBDE3-oQkQ-Rj-BhswGQZnV4l5KNMnoIiYsFXsGKVqjpRv-3Il0ioxN5iLnjm_oORSQRbCf7rGUe9FTK-SaSsH_CDMrSXGbDKryg4dfwYjYP6-B4byKfgSLp6XyE1qLIwIexsqShN6-mrtiD2UFhJgxO5jCBtWTc-GLx_AMv5FeZlvUMkdmSYm0iZ8Pj1XuWywurULbHSd_cgx-rjN6Z8cVK5VXQrvNEFrtWqZmBxaYmxfQc76CAglSewd2Y8csm6-UWeuVhpesM--GYKfFHFibNPKAvlpNthcYwjivDVhukHRVojBpnxE_q05j0rh1tnGZsDkHDSggqy4pST9xY44sa9hWT1OaB_Gqg5xA"
+      },
+      {
+        "id": "serenity-salon-and-spa",
+        "placeId": "ChIJc99JKNfm84gRdOmmydaJinc",
+        "name": "Serenity Salon and Spa",
+        "category": "hair-salons",
+        "address": "239 Smithville Church Rd STE A, Warner Robins, GA 31088, USA",
+        "phone": "(478) 953-3001",
+        "website": "http://www.serenitysalonspawr.com/",
+        "rating": 4.6,
+        "reviewCount": 122,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 9:00 AM – 6:00 PM",
+          "Wednesday: 9:00 AM – 6:00 PM",
+          "Thursday: 9:00 AM – 6:00 PM",
+          "Friday: 9:00 AM – 6:00 PM",
+          "Saturday: 9:00 AM – 4:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6099111,
+        "lng": -83.6852167,
+        "types": [
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-tr3MEzRSLMzB167eYsOamHnECpe0Q_kEKB0-5eHhGCJ4kDqEa8rn-iGw_vpCRFm4CyY7MAUCpdsKzDqBzdNsB1GRlUrZD16aFpSD0lFIYR0AWkBLFo9DIRoPZE0hvhjh1QZ-b94sZhdo1PVSoQlkE60GUzKAeIzFhQThyTTp5dZ5i8cpkzhdRuWi33X24oh6InlE_xi5JiQhJmL_vvvAOiJXFAO9J9Cc8vwendeoJ7JHcagmxTJM3duRL4HYZy7R7RHjc3evtTDYpqe7LxAi5c91ydbO7vDsmplk_g1GiWKUyXGuBpdLFMMzdUQf6ReKUN0SgQVax0CuiXuJMWSSw_AWdwrkaQBnJIQRwYBbV55JKAW2qqcoCR6jLuxNRzz-YeyqNRcz0ilFw-e_IdSIPwbc3iLirDO9BnVIe7NBY"
+      },
+      {
+        "id": "illusions-salon-spa",
+        "placeId": "ChIJFeVw6ufg84gRVt1mS-gFy6A",
+        "name": "Illusions Salon, Spa",
+        "category": "hair-salons",
+        "address": "115 Russell Pkwy Suite K, Warner Robins, GA 31088, USA",
+        "phone": "(478) 293-1110",
+        "website": "http://illusionssaloninwr.com/",
+        "rating": 4.5,
+        "reviewCount": 79,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 10:00 AM – 6:00 PM",
+          "Wednesday: 10:00 AM – 6:00 PM",
+          "Thursday: 10:00 AM – 6:00 PM",
+          "Friday: 10:00 AM – 6:00 PM",
+          "Saturday: 10:00 AM – 6:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5934978,
+        "lng": -83.6255729,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-u8Aq6HMmno_qANYy85ayIIO8d1CDBxfwBvGcl_TRXCzVoW8FITpfFoIdCZb0vlyszGN71D3GdsY6UAhd7ZXvTU6_hHbqR4VPWTvDMyAFSE4Fby7AV2cn9kv65kaXsI2WOOmz1gItNBVg58aJLldreQTCOQG_DXhmaI0t3V7nhp23zLPwrdrPGH6Sp-dosPpW1m73IJSEYXJSk4nevKzwGfkgh3FQb6hXrm2lKKjuQ29Jli0tUzWaw_XOioYag9ZSTFQg8C3AlTm8IgBN1Y8Xr1M-3fIuDjTrTC2PK5aL30jg"
+      },
+      {
+        "id": "salon-fusion-spa",
+        "placeId": "ChIJn21oBtnf84gRreArSK_yc4Y",
+        "name": "Salon Fusion Spa",
+        "category": "hair-salons",
+        "address": "405 SR 96 Suite #900, Bonaire, GA 31005, USA",
+        "phone": "(478) 225-6866",
+        "website": "https://www.salonfusionspa.net/",
+        "rating": 4.7,
+        "reviewCount": 135,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 9:00 AM – 6:00 PM",
+          "Wednesday: 9:00 AM – 6:00 PM",
+          "Thursday: 9:00 AM – 6:00 PM",
+          "Friday: 9:00 AM – 6:00 PM",
+          "Saturday: 9:00 AM – 4:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5552067,
+        "lng": -83.6252903,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "hair_care",
+          "point_of_interest",
+          "spa",
+          "store"
+        ]
+      },
+      {
+        "id": "quennie-simburger-curl-specialist",
+        "placeId": "ChIJY6ayfubh84gRkt7zZbSU9BI",
+        "name": "Quennie Simburger, Curl Specialist",
+        "category": "hair-salons",
+        "address": "203 Byrd Ct, Warner Robins, GA 31088, USA",
+        "phone": "(636) 649-4001",
+        "website": "https://m.facebook.com/quenniehairartist/",
+        "rating": 5,
+        "reviewCount": 67,
+        "hours": [],
+        "lat": 32.6097025,
+        "lng": -83.6841881,
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-sQqSerj_bDZiLiip9HPP_jGlvI4rZJyi6IXcowy8sfpffoJ6rETaBZ73kTYMjSC9UMNlYthsQeTjr3LO02xov6AM8O3Pk8Qs7-_RrkX90oyDI0WvuHzd0amdPJ6PO-igz0iNIPRA9J0wYr5JlUzAL0yuobrVTsdH8AlOoyQo-rxoeZ7m_PKioSfvDmp1WsWlRiUK9ZNPE8Rs755bFF0E19tyCh51v26iSYjzAUuZqh8U6ht-EWB1H20ezYrv3TnXVZZ4CKNnR6caROz7_6X_ezG3HoLeTclFaU7ckCtJ8DbA"
+      },
+      {
+        "id": "southern-roots-salon",
+        "placeId": "ChIJx17y2jnh84gRD-DhDWmXin8",
+        "name": "Southern Roots Salon",
+        "category": "hair-salons",
+        "address": "2928 Moody Rd, Bonaire, GA 31005, USA",
+        "phone": "(478) 551-4469",
+        "website": "https://www.facebook.com/SouthernRootsWarnerRobins/",
+        "rating": 4.8,
+        "reviewCount": 50,
+        "hours": [],
+        "lat": 32.559148,
+        "lng": -83.624253,
+        "types": [
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-tHJ4rbyzK_ZCyiSQd8mbFzWwa9dFuTJvvmE5xcb2tAslvJSqTV4riXlXQ-Qe4xKeU0QIvnam1GH1E7DgjHIgkuqF1NS4cAWJCpdvcDgOUFSikihYBlTlNKhB3I1Y6GLt0rrdgL5lZkwRPkMmThsQdek401pO_Mf_2TZqdJ3t_V38TpoZc7rfB0CdTaaNZbVwlhMthn939IThLUcnaI1omSmQ6nL03Dv8EDGpN4hQq7nOXkLljYYfBmRNi5oSdEHsBZrCRISl2fUYbaGkDh3GLaw_zoQ1fSa8ERDXCVHAaHv3GsTBHTSb_T-b6W-DalNXyiUNop8CuytxpMuu7yd1ENdbk4vV5qQuyb1QD9UM32FTNm-gT5lpWEA50A0VuxAKWXYolBSBvqu0Vq-I3JxOyAJcjgMkAOBnBdTM3h5vqigII"
+      },
+      {
+        "id": "boho-salon",
+        "placeId": "ChIJHeTRYc3n84gRw43qmWJOtVM",
+        "name": "BOHO SALON",
+        "category": "hair-salons",
+        "address": "225 Smithville Church Rd, Warner Robins, GA 31088, USA",
+        "phone": "(478) 333-3373",
+        "website": null,
+        "rating": 4.6,
+        "reviewCount": 38,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 9:00 AM – 5:00 PM",
+          "Wednesday: 9:00 AM – 5:00 PM",
+          "Thursday: 9:00 AM – 5:00 PM",
+          "Friday: 9:00 AM – 5:00 PM",
+          "Saturday: 9:00 AM – 5:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6093503,
+        "lng": -83.6830521,
+        "types": [
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-tepqkLOcoBhcUCicvGYInzkYAtC5tJXuB7ITv0b0wDZsfLHFLgDtjrV2m0TCfewX-vCnlws8U-BNQMoA0-KSItoRm2YKHJ7pU1KCX-zkQGUmbxhLlj4fuCvT04IzT-W2oMn3tYIrJXuZaV7wjq0FRDhYXPNn_L_oyb-k2odpse2qBIi_FoXee3NmJcbilRXiLdUQ9uXJeImNpVtHOffVPTiC61KGPGfM1UVp2JMYeBDB13wkGNd4B8AF7lzdQJNaMtqtOycdyXmCXBq_Ai_jQgGeHIoom9OOHlnqxD80VlhA"
+      },
+      {
+        "id": "innovations-beauty-salon",
+        "placeId": "ChIJzwH6j73h84gRCPmWsmiHLtI",
+        "name": "Innovations Beauty Salon",
+        "category": "hair-salons",
+        "address": "2318 Moody Rd, Warner Robins, GA 31088, USA",
+        "phone": "(478) 302-1050",
+        "website": "http://innovationsbeautysalon.net/",
+        "rating": 4.7,
+        "reviewCount": 39,
+        "hours": [
+          "Monday: 10:00 AM – 6:30 PM",
+          "Tuesday: 10:00 AM – 6:30 PM",
+          "Wednesday: 10:00 AM – 6:30 PM",
+          "Thursday: 10:00 AM – 6:30 PM",
+          "Friday: 10:00 AM – 6:30 PM",
+          "Saturday: 9:30 AM – 12:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5865409,
+        "lng": -83.62242359999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-tfrYARGa8inQQ-4EygozmGIiKRdEvfzNGeoRra2mYyvmTts_VKU2i-o8x7OACI3Dfs7IVUAkfOwItqdf1VnS9w7ja-ZydlEOE0sA7MWfo8ajPcfoBSBEARElUvRcBEfOThCrghOPhxPcTruoy71s3_lNf-2uyI3Ntvcn7CVMCanMb3YALfcz5UOwLOiw63fAHXOLeNXLTlvEJeCrMTvt9O-gSf8IBeDscQnNJ0D5EfWHG6PIuZcow_vnwIRH9vHJCNiVX5O_4rxIv4qTkVt7npi2NqNgV5rZA770PMdn4DGA"
+      },
+      {
+        "id": "bayou-barbie-hair-salon",
+        "placeId": "ChIJFXJPztPm84gR9TQJEBZ42q8",
+        "name": "Bayou Barbie Hair Salon",
+        "category": "hair-salons",
+        "address": "201 Independence Dr, Warner Robins, GA 31088, USA",
+        "phone": "(478) 333-5009",
+        "website": "https://www.schedulicity.com/scheduling/BBHP8V",
+        "rating": 4.8,
+        "reviewCount": 81,
+        "hours": [],
+        "lat": 32.6125101,
+        "lng": -83.6819405,
+        "types": [
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ]
+      },
+      {
+        "id": "twisted-scissors-salon",
+        "placeId": "ChIJSWgv2vHd84gRyvrLer7TIiI",
+        "name": "Twisted Scissors Salon",
+        "category": "hair-salons",
+        "address": "524 S Houston Lake Rd, Warner Robins, GA 31088, USA",
+        "phone": "(478) 218-0188",
+        "website": "https://m.facebook.com/Twisted-Scissors-LLC-222885541238603/?fref=pb",
+        "rating": 4.8,
+        "reviewCount": 57,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: 11:00 AM – 6:00 PM",
+          "Thursday: 11:00 AM – 6:00 PM",
+          "Friday: 11:00 AM – 6:00 PM",
+          "Saturday: 9:00 AM – 3:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.604352,
+        "lng": -83.6727712,
+        "types": [
+          "establishment",
+          "hair_care",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-tkqDmXsWuNlbH2fg43839Fm1l7-bIk2yTEDt_Cxk2j0N-fuo7fuoLV4rBKxVthonZwiNlFmau5hWVGX14-82QevvTc8H9DLbIN4TRlI_7-p9N_ScbCWkqpItzFGy49QUqGheutuDfiiHzqwWdWrdQsL8LK54aQhIwewKjCymVAIJHc6YF5kb_axRKasgH-F0IQ6pjXY9IP7eZN-78jLuiXW5Ceq59VKQGwcd-iwE_bS2h3VD5UELVopv8R5LB_3Fw29gCIInF0ANjN3EwNOH-2U_Y9NS1J7Aiq8pWByZA2VwWTlItSGJKjs3PKeJb7ngxI1kt_-uqjfAW3JAI_KFpx-qfEvuzdlYFevR_irev5g8FTqzTAB0IIFxNKa8inV_vaIYc47zz4C1DxUzMrc7cNYKVcX8pB_N0moHyo8OI"
+      }
+    ],
+    "spas": [
+      {
+        "id": "bellezza",
+        "placeId": "ChIJg46GL87m84gRh0Rh_xxGgNU",
+        "name": "Bellezza",
+        "category": "spas",
+        "address": "2929 Watson Blvd, Warner Robins, GA 31093, USA",
+        "phone": "(478) 330-2426",
+        "website": "http://www.bellezzayou.com/",
+        "rating": 4.8,
+        "reviewCount": 224,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 10:00 AM – 7:00 PM",
+          "Wednesday: 10:00 AM – 7:00 PM",
+          "Thursday: 10:00 AM – 7:00 PM",
+          "Friday: 10:00 AM – 7:00 PM",
+          "Saturday: 9:00 AM – 4:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6162975,
+        "lng": -83.68507550000001,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-vct--1Go6oE2WWm09B3l3jV7we_RbKOeJG5lM98_MyKPKAV-O-q_VQKpPXM6tyGidp_Gmd3Uu2I8N7rpWU0ibr0lsQ1ULc9u0WI6_zSs1S_WpiMU_-frkm5_PhKU1cJ9i7IBdPLJ_q1VI3G_7j92H0zfNOinfdsx0UU6GaPzyO0D7m5jpExCeVz9c55eZi6gUj_41f0MdvhHfaZpgaradhWRFHrlMAIzy5r7BhUAesG8d_qtNdKN3Q8qdY9W9iw4cA-71Ska6NSCShatYc0bPo0hgCFgkDzGr2bmOCJ9gt0Q"
+      },
+      {
+        "id": "the-body-bar",
+        "placeId": "ChIJQY9Q4XXn84gRZnCbsDR7Goc",
+        "name": "The Body Bar",
+        "category": "spas",
+        "address": "4993 Russell Pkwy, Warner Robins, GA 31088, USA",
+        "phone": "(478) 333-2994",
+        "website": "https://thebodybarwr.com/",
+        "rating": 5,
+        "reviewCount": 25,
+        "hours": [],
+        "lat": 32.5788737,
+        "lng": -83.7187513,
+        "types": [
+          "establishment",
+          "point_of_interest",
+          "spa"
+        ]
+      },
+      {
+        "id": "blu-magnolia-spa",
+        "placeId": "ChIJg5fS2Q_n84gR82Bm-UgDagg",
+        "name": "Blu Magnolia Spa",
+        "category": "spas",
+        "address": "151 S Houston Lake Rd, Warner Robins, GA 31088, USA",
+        "phone": "(716) 378-7347",
+        "website": "http://blumagnoliaspa.glossgenius.com/",
+        "rating": 5,
+        "reviewCount": 22,
+        "hours": [
+          "Monday: 9:00 AM – 6:00 PM",
+          "Tuesday: 9:00 AM – 6:00 PM",
+          "Wednesday: 9:00 AM – 6:00 PM",
+          "Thursday: 9:00 AM – 6:00 PM",
+          "Friday: 9:00 AM – 6:00 PM",
+          "Saturday: 9:00 AM – 3:30 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6153395,
+        "lng": -83.68183719999999,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-vpCH9NepLH7dUU5XOV3UcZhcqR969VpYrcstUcaCZthoe06NOh5xzZdWa5xyP1vEwvcQ9o8HEARzykxOOiks-Zp9PVoHgpc_yuMLcjBcIP3Fuq_BWMD99Xn2OeV0jI6oKLEbiVpk9VGm-AKtBHhMNpNrYGAR4sYdXazP6l3T0yf_c3vB5dkLJSyzhkY43jcR6XpKCfd1EJWL_MDo7ldjm5ysF98N8YnYHJdDTRk4Pwl1-EgI2WB0otffef2MYx_xkWStYjMG06yNvBf8VAPvctjf44tok-1XU1rciLHrhbz4-sFi3Q5zOuJX18i9oOw0xCV95qlIJbKqpgGFEnPhpODMtpUFS-NT8FNTATKWD54oa5uFDAx-G5dHRULLMxVCvks1u2YP27Mn3KqmfpzoG8RG45liA8XqutgaQ2DZHurLKzTvQeaQN1MPwNng"
+      },
+      {
+        "id": "pine-spa",
+        "placeId": "ChIJM-58h5zf84gR6Xqm09-adfc",
+        "name": "pine spa",
+        "category": "spas",
+        "address": "789 SR 96 Ste 2C, Bonaire, GA 31005, USA",
+        "phone": "(478) 442-7587",
+        "website": null,
+        "rating": 4.5,
+        "reviewCount": 40,
+        "hours": [
+          "Monday: 10:00 AM – 10:00 PM",
+          "Tuesday: 10:00 AM – 10:00 PM",
+          "Wednesday: 10:00 AM – 10:00 PM",
+          "Thursday: 10:00 AM – 10:00 PM",
+          "Friday: 10:00 AM – 10:00 PM",
+          "Saturday: 10:00 AM – 10:00 PM",
+          "Sunday: 10:00 AM – 10:00 PM"
+        ],
+        "lat": 32.5560009,
+        "lng": -83.6610245,
+        "types": [
+          "establishment",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-uT46NZYumgqggm1ZV_l18tviyCWCyCpAC_C-ZiRdi10hNSeKL-aVDENGXxt9s_E7giRC55loxIUBWgJK2ReAO8EYnO8992GDbCun2hbCWw5BbXfLmfE5q9FZsCCSqwGMtkjQtvyiDTI9MPMwHjrTTvpWflhBt9TWGgc61Cag5gMnSx_raaaoKX21PaTRFcH7IwSN4shYrE3uslRrI5iEoMDF2zMffMTH3Bm1CYwzUPV04s2ohbek-IlT25JrslNVaQek6BvyHaWB-7Hnd49Z2WGdClqVGCQmPOTEJrRo4Wxg"
+      },
+      {
+        "id": "bubbling-spring-wellness-spa-appointment-only",
+        "placeId": "ChIJS7zWHRvn84gR3YupMtgTuwA",
+        "name": "Bubbling Spring Wellness Spa Appointment Only",
+        "category": "spas",
+        "address": "107 Independence Dr Suite D, Warner Robins, GA 31088, USA",
+        "phone": "(478) 397-7811",
+        "website": "http://bubblingspring.abmp.com/",
+        "rating": 5,
+        "reviewCount": 31,
+        "hours": [
+          "Monday: 9:00 AM – 7:00 PM",
+          "Tuesday: 9:00 AM – 7:00 PM",
+          "Wednesday: 9:00 AM – 3:00 PM",
+          "Thursday: 9:00 AM – 7:00 PM",
+          "Friday: Closed",
+          "Saturday: 9:00 AM – 3:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6125968,
+        "lng": -83.681107,
+        "types": [
+          "establishment",
+          "health",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-smqkdEpiF9GGPvBoWoU805G22k3lSUvg8ATg1k-xXxmWHIxa_RtGhLAQKHSLh8ozS74KrwgZf6tkpPDiIdtlJz1DfmRCEspQEplDeEmbkolOAgN76U2LbSM66iMku6komHSeBJLan5S1OYJbhJKj9XprM6ddN9hkzldHdRlB9xYkwF0EsnD2XrSIX3wZk_LYdzvfqB9RX1dJqzuJyWMn37r581Acqj0AGIPj5SFR5SaMl0Ypl0WfkUS9vC_DscPAPVACy85b8xbk1YWBHkan6Yz0_Aj-ebby9fggzTxzw"
+      },
+      {
+        "id": "beem-light-sauna-bonaire-warner-robins",
+        "placeId": "ChIJAb_yFnTf84gRaTE_9GAr-84",
+        "name": "beem Light Sauna - Bonaire (Warner Robins)",
+        "category": "spas",
+        "address": "770 SR 96 Suite 240, Bonaire, GA 31005, USA",
+        "phone": "(478) 772-3447",
+        "website": "https://www.beemlightsauna.com/location/bonaire",
+        "rating": 4.8,
+        "reviewCount": 26,
+        "hours": [
+          "Monday: 8:00 AM – 8:00 PM",
+          "Tuesday: 8:00 AM – 8:00 PM",
+          "Wednesday: 8:00 AM – 8:00 PM",
+          "Thursday: 8:00 AM – 8:00 PM",
+          "Friday: 8:00 AM – 5:00 PM",
+          "Saturday: 9:00 AM – 3:00 PM",
+          "Sunday: 11:00 AM – 3:00 PM"
+        ],
+        "lat": 32.5528242,
+        "lng": -83.6582406,
+        "types": [
+          "establishment",
+          "health",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-tu8f9yHyb2kwFgDubB6-RoItXTRFfizudzDEsf9AmMBzCutJL9gWrpzRVFq6OGBE0B_uZS8RvzPNvX7kQnQZ8G9wcH7cDx4NB2sSAqpxb1VQkiDBDtp5BmkxtAAlGXH7SJt5kzkBRxYsmIrzzc9wiwzTTStuFYIZI2ju-GyX0YWUmWmZdYTi4IPf0KMwdC8InqddPZERbMZsq6q2RHqpVOYYnJnwBdGxHfGhRh3Uc8Cu_27N29b0U0sQxnmsKLtn26-u9CAlN1enCASFUumbyzrhKrBhLvzcxWnZZlbdGZ4Q"
+      },
+      {
+        "id": "at-ease-therapeutic-massage",
+        "placeId": "ChIJCXTcyRnh84gRNDM8fxhJsso",
+        "name": "At Ease Therapeutic Massage",
+        "category": "spas",
+        "address": "344 Corder Rd, Warner Robins, GA 31088, USA",
+        "phone": "(478) 922-5200",
+        "website": null,
+        "rating": 4.8,
+        "reviewCount": 128,
+        "hours": [],
+        "lat": 32.6130686,
+        "lng": -83.65301110000001,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-tMjLyPUyJ5yzpF-N1Sw7v4r6suJxLxNXdV2ZBCpAOgZQuLOW6kiUHLMQU_si5aguBPp-YsgpucFKEd3mtQOVIGDfne-aBLYdJqciAmbt4HcF8qvBANtxVx5CO-2neYUJxLP6HezLhNAFSo28-KSqiJvX8mpUvu6ByiwQcglPOhBJODnWo_VQoJRgTlP92Ua-GEju2BXqpZvGbOT3gPKJzuP50YxYaIw1qR6UHkfyrsaXCx2GrueaZHPpZJ5LETbm_BaMtYpaTuf06TP8iECNwD-eg_I0yiyg1hZQa4Fwdn7g"
+      },
+      {
+        "id": "tibidabo-spa",
+        "placeId": "ChIJmbMnxtbm84gRWqUcIc0kIIw",
+        "name": "Tibidabo Spa",
+        "category": "spas",
+        "address": "203 Byrd Ct, Warner Robins, GA 31088, USA",
+        "phone": "(478) 953-0899",
+        "website": "http://www.tibidabospa.com/",
+        "rating": 4.5,
+        "reviewCount": 37,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: 10:00 AM – 6:00 PM",
+          "Wednesday: 10:00 AM – 6:00 PM",
+          "Thursday: 10:00 AM – 6:00 PM",
+          "Friday: 10:00 AM – 6:00 PM",
+          "Saturday: 10:00 AM – 2:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.6096945,
+        "lng": -83.68418659999999,
+        "types": [
+          "establishment",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-sAsNVTr2H9FJra5fOu_7PJAPR9cXxYBwiqC7fyvbOV-0BNvBdd4WoUqENEfWkDwKowVbQQ9I0l83JTqnP9fDwR6xxVQkKC_CoCzvYrt8rVDpY5kG7-RjaXn3hCuuzmPNwlsLQjZOwFyhcm4Z8Qjp4uQPRvHwCQ_OAHEyErL6yuzaYHk66ah8b_77bRIh-X9J1_8JkDmno1gupaEsBCBMYaYd7BzhX21HMYQVAu0jufg-7s9dl1XucnEXpmL8WMp6PfSTsFqcd8DXNBSUunPspBl25E7viE1uqZG8fBjchieRNB6tSH-3vgno5Y4iUiqOh4EnrTCMwgSqbRRpaesNPYYxvcH2KaDG1Cw66yPNn05tEASkxwpMNBWhVakVJZfgWlytJu3MOmb-BLCwuPl_m6snmI0XwIQiVTcBswWs5zcrENfENeSX4np8uVSw"
+      },
+      {
+        "id": "synergy-wellness-bodycare",
+        "placeId": "ChIJnVEC69Lm84gRcFRK9pjFZc4",
+        "name": "Synergy Wellness & BodyCare",
+        "category": "spas",
+        "address": "158 S Houston Lake Rd Ste 3, Warner Robins, GA 31088, USA",
+        "phone": "(478) 569-1660",
+        "website": "https://synergywellnessandbodycare.com/",
+        "rating": 5,
+        "reviewCount": 128,
+        "hours": [
+          "Monday: 9:00 AM – 6:00 PM",
+          "Tuesday: 9:00 AM – 6:00 PM",
+          "Wednesday: 9:00 AM – 6:00 PM",
+          "Thursday: 9:00 AM – 6:00 PM",
+          "Friday: 9:00 AM – 5:00 PM",
+          "Saturday: 9:00 AM – 4:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.614205,
+        "lng": -83.6788986,
+        "types": [
+          "establishment",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-uxS03DCYph_moKXmOPA140Qn771UChxetTSaL7OHISC1AASozugm-3LHKMZCQ3j0-LOpWt8kjvUujclztt9eqQqN9eWdRejdpb2D2Kl4aIBX5lBc04kiiWwcnWS6kWFJrLqz_sd1fzsulWC39seqHutm5YOKwzGg1tQBtXvM6X4VlmoWbkCQtMLI9KW52VZiXbf3lqfSvZ0cBqTHmOg9b9WqgWFpPfldu16NqxRokFoXG3EouQi0iGYkw7wbRoqhQo01mo9A1gwE1y2EVOKVdzh41ebm22qNT0CAbThMEm2BCgD5Xv_6yzlHGltMVBCCL5ACX5zvhJjQXFgKiXLn5IRkPF28amqVzG5sE5Snihcbv67NK0hkrcvJF02pmpeARqf4SPxrATW7CE2YEOBroHExOWSYAkznbeYaLpYVCh_w"
+      },
+      {
+        "id": "oasis",
+        "placeId": "ChIJI7cZ_h_h84gRiRwIs17sI7k",
+        "name": "OASIS",
+        "category": "spas",
+        "address": "205 Dental Dr ste 9, Warner Robins, GA 31088, USA",
+        "phone": "(478) 302-0125",
+        "website": "http://www.oasisbody.love/",
+        "rating": 5,
+        "reviewCount": 80,
+        "hours": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: 10:00 AM – 5:00 PM",
+          "Thursday: 10:00 AM – 3:00 PM",
+          "Friday: 10:00 AM – 5:00 PM",
+          "Saturday: 10:00 AM – 3:00 PM",
+          "Sunday: Closed"
+        ],
+        "lat": 32.5959184,
+        "lng": -83.6386254,
+        "types": [
+          "establishment",
+          "health",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-ul_yZX8FcwIi6U1bBXJOwdaS9cbmmplfqhUc4SS-qZoAYT0BEVd5lu6zUIKgJkB48pd6yOaGRLf83fqp7CSyb4WQvOD_BcB_D916EXQEsfGCEIWjpSHUBtDp_VpNB3O6xTZJ8Wjo_vdq5j5CApxXnQkaV9c31l9LCqlR_tRRGQ3bYbRFaaVZk3kqD_Y0EJ1oSlgrkAeIHKZdWdYsq9AYXMrapUbiUKsaSXp__iL8kuK4IF-7cnC5JYH2tbF2w48YZw6Iakbgv4n8pchXE1ERZFsZXJP8x33c_kE73cEVNqiRqSYm2qyos81q3RaqyeZjl-aR8hIE2tyBnyvzw-Ubg6CMoB6byz96_wsq__cspo6CEiUC7nEDQKjX55m7nCJX7cLtE9S1xZZklHa80ozo8C7oUVVMQMZUyrXv1WV3tjpe4N"
+      },
+      {
+        "id": "jade-massage",
+        "placeId": "ChIJn6uZzvrg84gRlxUkAQWcwIk",
+        "name": "Jade Massage",
+        "category": "spas",
+        "address": "1105 Russell Pkwy # A2, Warner Robins, GA 31088, USA",
+        "phone": "(478) 273-4421",
+        "website": "https://jade-massage.info/",
+        "rating": 4.6,
+        "reviewCount": 266,
+        "hours": [
+          "Monday: 10:00 AM – 9:00 PM",
+          "Tuesday: 10:00 AM – 9:00 PM",
+          "Wednesday: 10:00 AM – 9:00 PM",
+          "Thursday: 10:00 AM – 9:00 PM",
+          "Friday: 10:00 AM – 9:00 PM",
+          "Saturday: 10:00 AM – 9:00 PM",
+          "Sunday: 10:00 AM – 9:00 PM"
+        ],
+        "lat": 32.5933993,
+        "lng": -83.6451185,
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ],
+        "photoReference": "Ab43m-tBTnMLd-sPAKLHfuxKvHD52z0LNLCxDOWXlR8cAQdIlh-ujONgUvu-kp6Cg3iZtPA3L4W0_SStrHJ5ELoroH7-1h7WKdNxLDUtzObRSx3A3X6dQg1STcRQyw8YjLSaUyBchmdFEJi6fPF3cRd081BuycNpnQZLU7G0En9LyqAnGUX7dUOA4T5b2n2fv5MTPtgm9iGC7nUQ_jJsA1c4vFFIheE9OTlG48U3SScYG-OCgx9oakxOdPnzoszl83S-ukFkdLIz0G1FBtBvRFPPrH0sQomDWIMgzIOIKpy_U-y6yQ"
+      },
+      {
+        "id": "green-house-spa",
+        "placeId": "ChIJQeAVQBPh84gRA8PRLJDcAkk",
+        "name": "Green House Spa",
+        "category": "spas",
+        "address": "342 Corder Rd, Warner Robins, GA 31088, USA",
+        "phone": "(478) 300-2070",
+        "website": "https://www.fresha.com/book-now/gg-nails-xls3yz6o/services?lid=286077&pId=266977",
+        "rating": 5,
+        "reviewCount": 5,
+        "hours": [
+          "Monday: 10:00 AM – 5:00 PM",
+          "Tuesday: 10:00 AM – 5:00 PM",
+          "Wednesday: 10:00 AM – 5:00 PM",
+          "Thursday: 10:00 AM – 5:00 PM",
+          "Friday: 10:00 AM – 5:00 PM",
+          "Saturday: 9:00 AM – 5:00 PM",
+          "Sunday: 11:00 AM – 5:00 PM"
+        ],
+        "lat": 32.6131457,
+        "lng": -83.6529254,
+        "types": [
+          "establishment",
+          "point_of_interest",
+          "spa"
+        ]
+      },
+      {
+        "id": "new-lan-spa",
+        "placeId": "ChIJLyUE9lDg84gRVPZ9JJsLqAQ",
+        "name": "New Lan Spa",
+        "category": "spas",
+        "address": "115 Russell Pkwy U, Warner Robins, GA 31088, USA",
+        "phone": "(478) 273-4416",
+        "website": "https://lanfootmassage888.wixsite.com/newlanspa",
+        "rating": 3.9,
+        "reviewCount": 98,
+        "hours": [
+          "Monday: 9:30 AM – 9:30 PM",
+          "Tuesday: 9:30 AM – 9:30 PM",
+          "Wednesday: 9:30 AM – 9:30 PM",
+          "Thursday: 9:30 AM – 9:30 PM",
+          "Friday: 9:30 AM – 9:30 PM",
+          "Saturday: 9:30 AM – 9:30 PM",
+          "Sunday: 9:30 AM – 9:30 PM"
+        ],
+        "lat": 32.5923983,
+        "lng": -83.6269202,
+        "types": [
+          "beauty_salon",
+          "establishment",
+          "health",
+          "point_of_interest",
+          "spa"
+        ],
+        "photoReference": "Ab43m-vwM5vGgIJle5ilUNLyMc6jSOJpyuHlveOaZYhAOzw9l1w7RnamcZ7xFpBTzZaa235X5stYxEXXUNFBx-J6zbp70O127DolI7dz28Xs7R1Q9l2CPV-a4cALvjGGNG34_Rf2JDJdkB_rBGowgS0TdH3oMq4-w7k6H49JWbFt9daifbqGIoHhvcWIPqn-W7Jxf3lYqvfiQ1Pe9ctFhZP9eS8LnqdEcVcCFK2aEcQLklsndRktVA3l-sv6Ob7v2x-Dms4DTBhOrl33u68nEdipeT_JDvmBEKMJzCzm8xvp31thSw"
+      }
+    ]
+  }
+}
