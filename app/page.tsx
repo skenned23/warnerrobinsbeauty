@@ -61,7 +61,7 @@ function Stars({ rating }: { rating: number }) {
   const full = Math.floor(rating);
   const half = rating - full >= 0.5;
   return (
-    <span className="flex gap-0.5 text-[#C4856A]">
+    <span className="flex gap-0.5 text-[#D4A574]">
       {Array.from({ length: 5 }, (_, i) => (
         <span key={i} className={i < full ? "opacity-100" : half && i === full ? "opacity-60" : "opacity-20"}>★</span>
       ))}
@@ -74,42 +74,48 @@ export default function HomePage() {
   const topRated = getTopRated(data);
 
   return (
-    <main className="min-h-screen bg-[#FDFAF7] text-[#2C1810] font-sans">
+    <main className="min-h-screen bg-[#0A0A0A] text-white font-sans">
 
-      <header className="sticky top-0 z-50 bg-[#FDFAF7]/95 backdrop-blur-sm border-b border-[#E8D5C4]">
+      {/* Nav */}
+      <header className="sticky top-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b border-white/5">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-[#C4856A] text-2xl">✦</span>
-            <span className="font-display text-xl font-semibold tracking-tight">Warner Robins Beauty</span>
+            <span className="text-[#D4A574] text-2xl">✦</span>
+            <span className="text-xl font-semibold tracking-tight">Warner Robins Beauty</span>
           </Link>
-          <nav className="hidden md:flex gap-6 text-sm text-[#6B4C3B]">
-            <Link href="/waxing" className="hover:text-[#C4856A] transition-colors">Waxing</Link>
-            <Link href="/nail-salons" className="hover:text-[#C4856A] transition-colors">Nails</Link>
-            <Link href="/hair-salons" className="hover:text-[#C4856A] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#C4856A] transition-colors">Spas</Link>
+          <nav className="hidden md:flex gap-6 text-sm text-white/50">
+            <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
+            <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
+            <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
+            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
           </nav>
         </div>
       </header>
 
-      <section className="relative overflow-hidden bg-[#2C1810] text-[#FDFAF7] py-24 px-6">
-        <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: "repeating-linear-gradient(45deg, #C4856A 0, #C4856A 1px, transparent 0, transparent 50%)", backgroundSize: "12px 12px" }} />
-        <div className="absolute -top-32 -right-32 w-[500px] h-[500px] rounded-full bg-[#C4856A] opacity-10 blur-3xl" />
+      {/* Hero */}
+      <section className="relative overflow-hidden py-28 px-6">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1a0f0a] via-[#0A0A0A] to-[#0A0A0A]" />
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-[#D4A574] opacity-[0.06] blur-[120px]" />
+        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#D4A574] opacity-[0.04] blur-[100px]" />
         <div className="relative max-w-6xl mx-auto">
-          <p className="text-[#C4856A] text-sm font-medium tracking-[0.2em] uppercase mb-4">Warner Robins, Georgia</p>
-          <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.05] mb-6 max-w-3xl">
-            Your Local Beauty <span className="text-[#C4856A]">Directory</span>
+          <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 text-xs text-[#D4A574] tracking-widest uppercase mb-6">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#D4A574] animate-pulse" />
+            Warner Robins, Georgia
+          </div>
+          <h1 className="text-5xl md:text-7xl font-bold leading-[1.05] mb-6 max-w-3xl">
+            Your Local<br />Beauty <span className="text-[#D4A574]">Directory</span>
           </h1>
-          <p className="text-[#C4B89A] text-xl max-w-xl mb-10 leading-relaxed">
+          <p className="text-white/50 text-xl max-w-xl mb-10 leading-relaxed">
             Browse {Object.values(data).flat().length}+ verified salons, spas, and studios across Warner Robins — rated, reviewed, and ready to book.
           </p>
           <div className="flex flex-wrap gap-3">
-            <Link href="/waxing" className="bg-[#C4856A] hover:bg-[#B5745A] text-white px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Browse Waxing Salons</Link>
-            <Link href="/nail-salons" className="border border-[#C4856A]/40 hover:border-[#C4856A] text-[#C4B89A] hover:text-[#C4856A] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Nail Salons</Link>
+            <Link href="/waxing" className="bg-[#D4A574] hover:bg-[#C4956A] text-black px-7 py-3.5 rounded-full text-sm font-semibold transition-colors">Browse Waxing Salons</Link>
+            <Link href="/nail-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Nail Salons</Link>
           </div>
-          <div className="mt-16 pt-8 border-t border-white/10 flex flex-wrap gap-8 text-sm text-[#C4B89A]">
+          <div className="mt-16 pt-8 border-t border-white/5 flex flex-wrap gap-10 text-sm text-white/40">
             {[["81+", "Verified Businesses"], ["5", "Beauty Categories"], ["Warner Robins", "GA & Surrounds"]].map(([val, label]) => (
               <div key={label}>
-                <span className="block text-white text-2xl font-display font-semibold">{val}</span>
+                <span className="block text-white text-2xl font-bold mb-0.5">{val}</span>
                 <span>{label}</span>
               </div>
             ))}
@@ -117,45 +123,50 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Featured */}
       <FeaturedListing />
 
-      <section className="max-w-6xl mx-auto px-6 py-12">
-        <div className="mb-8">
-          <p className="text-[#C4856A] text-xs font-medium tracking-widest uppercase mb-1">Browse by Category</p>
-          <h2 className="font-display text-3xl md:text-4xl font-bold">Find What You Need</h2>
+      {/* Categories */}
+      <section className="max-w-6xl mx-auto px-6 py-16">
+        <div className="mb-10">
+          <p className="text-[#D4A574] text-xs font-medium tracking-widest uppercase mb-2">Browse by Category</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Find What You Need</h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {CATEGORIES.map((cat) => (
-            <Link key={cat.slug} href={`/${cat.slug}`} className="group relative rounded-xl border border-[#E8D5C4] bg-white hover:border-[#C4856A] hover:shadow-lg hover:shadow-[#C4856A]/10 p-6 transition-all duration-200">
+            <Link key={cat.slug} href={`/${cat.slug}`}
+              className="group relative rounded-xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-[#D4A574]/30 p-6 transition-all duration-200">
               <div className="flex items-start justify-between mb-4">
-                <span className="text-[#C4856A] text-3xl leading-none">{cat.icon}</span>
-                {cat.count && <span className="text-xs text-[#A0786A] bg-[#F5EBE6] px-2.5 py-1 rounded-full">{cat.count} listings</span>}
+                <span className="text-[#D4A574] text-3xl leading-none">{cat.icon}</span>
+                {cat.count && <span className="text-xs text-white/30 bg-white/5 px-2.5 py-1 rounded-full">{cat.count} listings</span>}
               </div>
-              <h3 className="font-display text-xl font-semibold mb-1 group-hover:text-[#C4856A] transition-colors">{cat.label}</h3>
-              <p className="text-sm text-[#6B4C3B] leading-relaxed">{cat.description}</p>
-              <div className="mt-4 text-[#C4856A] text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">Browse all →</div>
+              <h3 className="text-xl font-semibold mb-1 group-hover:text-[#D4A574] transition-colors">{cat.label}</h3>
+              <p className="text-sm text-white/40 leading-relaxed">{cat.description}</p>
+              <div className="mt-4 text-[#D4A574] text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">Browse all →</div>
             </Link>
           ))}
         </div>
       </section>
 
-      <section className="bg-[#F5EBE6]/50 py-16 px-6">
+      {/* Top Rated */}
+      <section className="bg-white/[0.02] border-y border-white/5 py-16 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="mb-8">
-            <p className="text-[#C4856A] text-xs font-medium tracking-widest uppercase mb-1">Community Favorites</p>
-            <h2 className="font-display text-3xl md:text-4xl font-bold">Top-Rated in Warner Robins</h2>
+          <div className="mb-10">
+            <p className="text-[#D4A574] text-xs font-medium tracking-widest uppercase mb-2">Community Favorites</p>
+            <h2 className="text-3xl md:text-4xl font-bold">Top-Rated in Warner Robins</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {topRated.map((biz, i) => (
-              <Link key={biz.id || biz.name} href={`/${biz.id || biz.name.toLowerCase().replace(/\s+/g, "-")}`} className="group bg-white rounded-xl border border-[#E8D5C4] hover:border-[#C4856A] hover:shadow-md p-6 transition-all duration-200">
+              <Link key={biz.id || biz.name} href={`/${biz.id || biz.name.toLowerCase().replace(/\s+/g, "-")}`}
+                className="group bg-white/[0.03] rounded-xl border border-white/5 hover:border-[#D4A574]/30 hover:bg-white/[0.06] p-6 transition-all duration-200">
                 <div className="flex items-start gap-4">
-                  <span className="w-9 h-9 rounded-full bg-[#F5EBE6] text-[#C4856A] flex items-center justify-center text-sm font-bold shrink-0">{i + 1}</span>
+                  <span className="w-9 h-9 rounded-full bg-[#D4A574]/10 text-[#D4A574] flex items-center justify-center text-sm font-bold shrink-0">{i + 1}</span>
                   <div className="flex-1 min-w-0">
-                    <h3 className="font-semibold text-[#2C1810] group-hover:text-[#C4856A] transition-colors truncate mb-0.5">{biz.name}</h3>
-                    <p className="text-xs text-[#A0786A] mb-2">{biz.categoryLabel}</p>
+                    <h3 className="font-semibold group-hover:text-[#D4A574] transition-colors truncate mb-0.5">{biz.name}</h3>
+                    <p className="text-xs text-white/30 mb-2">{biz.categoryLabel}</p>
                     <div className="flex items-center gap-2">
                       <Stars rating={biz.rating!} />
-                      <span className="text-xs text-[#6B4C3B]">{biz.rating} ({biz.reviewCount?.toLocaleString()})</span>
+                      <span className="text-xs text-white/40">{biz.rating} ({biz.reviewCount?.toLocaleString()})</span>
                     </div>
                   </div>
                 </div>
@@ -165,28 +176,33 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* CTA */}
       <section className="max-w-6xl mx-auto px-6 py-16">
-        <div className="rounded-2xl bg-[#2C1810] text-white p-10 md:p-14 text-center relative overflow-hidden">
-          <div className="absolute inset-0 opacity-[0.05]" style={{ backgroundImage: "repeating-linear-gradient(45deg, #C4856A 0, #C4856A 1px, transparent 0, transparent 50%)", backgroundSize: "12px 12px" }} />
+        <div className="rounded-2xl border border-[#D4A574]/20 bg-gradient-to-br from-[#1a0f0a] to-[#0A0A0A] p-10 md:p-14 text-center relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-80 h-80 rounded-full bg-[#D4A574] opacity-[0.06] blur-[80px]" />
           <div className="relative">
-            <span className="text-[#C4856A] text-4xl">✦</span>
-            <h2 className="font-display text-3xl md:text-4xl font-bold mt-4 mb-3">Own a Beauty Business in Warner Robins?</h2>
-            <p className="text-[#C4B89A] mb-8 max-w-xl mx-auto">Get your salon or spa listed — free basic listings and premium featured placement available.</p>
-            <a href="mailto:hello@warnerrobinsbeauty.com" className="inline-block bg-[#C4856A] hover:bg-[#B5745A] text-white px-8 py-4 rounded-full font-medium transition-colors">Get Listed Today</a>
+            <span className="text-[#D4A574] text-4xl">✦</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-3">Own a Beauty Business in Warner Robins?</h2>
+            <p className="text-white/40 mb-8 max-w-xl mx-auto">Get your salon or spa listed — free basic listings and premium featured placement available.</p>
+            <a href="mailto:hello@warnerrobinsbeauty.com"
+              className="inline-block bg-[#D4A574] hover:bg-[#C4956A] text-black px-8 py-4 rounded-full font-semibold transition-colors">
+              Get Listed Today
+            </a>
           </div>
         </div>
       </section>
 
-      <footer className="border-t border-[#E8D5C4] bg-[#FDFAF7] py-10 px-6">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-[#A0786A]">
-          <div className="flex items-center gap-2 font-display font-semibold text-[#2C1810]">
-            <span className="text-[#C4856A]">✦</span> Warner Robins Beauty Directory
+      {/* Footer */}
+      <footer className="border-t border-white/5 py-10 px-6">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-white/30">
+          <div className="flex items-center gap-2 font-semibold text-white/70">
+            <span className="text-[#D4A574]">✦</span> Warner Robins Beauty Directory
           </div>
           <nav className="flex gap-6">
-            <Link href="/waxing" className="hover:text-[#C4856A] transition-colors">Waxing</Link>
-            <Link href="/nail-salons" className="hover:text-[#C4856A] transition-colors">Nails</Link>
-            <Link href="/hair-salons" className="hover:text-[#C4856A] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#C4856A] transition-colors">Spas</Link>
+            <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
+            <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
+            <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
+            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
           </nav>
           <p>© {new Date().getFullYear()} warnerrobinsbeauty.com</p>
         </div>
