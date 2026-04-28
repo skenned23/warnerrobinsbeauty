@@ -175,7 +175,7 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
             <div className="border border-dashed border-[#D4A574]/20 rounded-xl p-6 text-center bg-white/[0.02]">
               <p className="text-sm font-semibold mb-1">Is this your business?</p>
               <p className="text-xs text-white/30 mb-3">Claim this listing to add photos, respond to reviews, and get featured.</p>
-              <a href="mailto:hello@warnerrobinsbeauty.com"
+              <a href="mailto:warnerrobinsbeauty@gmail.com"
                 className="inline-block bg-[#D4A574] hover:bg-[#C4956A] text-black px-6 py-2 rounded-full text-sm font-semibold transition-colors">
                 Claim This Listing
               </a>
