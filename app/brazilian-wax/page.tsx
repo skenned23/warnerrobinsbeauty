@@ -139,7 +139,7 @@ export default function BrazilianWaxPage() {
                     </div>
                   )}
                   {biz.phone && <p className="text-xs text-white/30">{biz.phone}</p>}
-                  <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(biz.name + " " + biz.address)}`} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="mt-3 inline-block text-xs text-[#D4A574] hover:underline">📍 Get Directions</a>
+                  <a href={`https://<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(biz.name + " " + biz.address)}`} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="mt-3 inline-block text-xs text-[#D4A574] hover:underline">📍 Get Directions</a>
                 </div>
               </Link>
             );
