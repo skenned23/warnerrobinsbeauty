@@ -1,6 +1,5 @@
 import fs from "fs";
 import path from "path";
-import Link from "next/link";
 import type { Metadata } from "next";
 import Navbar from "../components/Navbar";
 
@@ -47,27 +46,7 @@ export default function TanningSalonsPage() {
   return (
     <main className="min-h-screen bg-[#0A0A0A] text-white font-sans">
 
-      {/* Nav */}
-      <header className="sticky top-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b border-white/5">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="text-[#D4A574] text-2xl">✦</span>
-            <span className="text-xl font-semibold tracking-tight">Warner Robins Beauty</span>
-          </Link>
-          <nav className="hidden md:flex gap-6 text-sm text-white/50">
-            <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
-            <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
-            <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
-            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
-            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
-            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
-            <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
-            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
-            <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
-          </nav>
-        </div>
-      </header>
+      <Navbar />
 
       {/* Hero */}
       <section className="relative overflow-hidden py-16 px-6 border-b border-white/5">
@@ -75,7 +54,7 @@ export default function TanningSalonsPage() {
         <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[#D4A574] opacity-[0.05] blur-[120px]" />
         <div className="relative max-w-6xl mx-auto">
           <div className="text-sm text-white/30 mb-4">
-            <Link href="/" className="hover:text-[#D4A574]">Home</Link>
+            <a href="/" className="hover:text-[#D4A574]">Home</a>
             <span className="mx-2">›</span>
             <span className="text-white/60">Tanning Salons</span>
           </div>
@@ -91,34 +70,38 @@ export default function TanningSalonsPage() {
       {/* Listings */}
       <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {businesses.map((biz) => (
-            <Link key={biz.id} href={`/${biz.id}`}
-              className="group bg-white/[0.02] rounded-xl border border-white/5 hover:border-[#D4A574]/30 hover:bg-white/[0.05] overflow-hidden transition-all duration-200">
-              {biz.photoUrl && (
-                <div className="h-40 overflow-hidden">
-                  <img src={biz.photoUrl} alt={biz.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                </div>
-              )}
-              <div className="p-5">
-                <h2 className="font-semibold text-lg mb-1 group-hover:text-[#D4A574] transition-colors">{biz.name}</h2>
-                <p className="text-xs text-white/30 mb-3">{biz.address}</p>
-                {biz.rating && (
-                  <div className="flex items-center gap-2 mb-3">
-                    <Stars rating={biz.rating} />
-                    <span className="text-xs text-white/40">{biz.rating} ({biz.reviewCount?.toLocaleString()})</span>
+          {businesses.map((biz) => {
+            const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(biz.name + " " + biz.address)}`;
+            return (
+              <a key={biz.id} href={`/${biz.id}`}
+                className="group bg-white/[0.02] rounded-xl border border-white/5 hover:border-[#D4A574]/30 hover:bg-white/[0.05] overflow-hidden transition-all duration-200">
+                {biz.photoUrl && (
+                  <div className="h-40 overflow-hidden">
+                    <img src={biz.photoUrl} alt={biz.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   </div>
                 )}
-                <div className="flex gap-2 flex-wrap">
-                  {biz.website && (
-                    <span className="text-xs bg-[#D4A574]/10 text-[#D4A574] px-2.5 py-1 rounded-full">Website</span>
+                <div className="p-5">
+                  <h2 className="font-semibold text-lg mb-1 group-hover:text-[#D4A574] transition-colors">{biz.name}</h2>
+                  <p className="text-xs text-white/30 mb-3">{biz.address}</p>
+                  {biz.rating && (
+                    <div className="flex items-center gap-2 mb-3">
+                      <Stars rating={biz.rating} />
+                      <span className="text-xs text-white/40">{biz.rating} ({biz.reviewCount?.toLocaleString()})</span>
+                    </div>
                   )}
-                  {biz.phone && (
-                    <span className="text-xs bg-white/5 text-white/40 px-2.5 py-1 rounded-full">{biz.phone}</span>
-                  )}
+                  <div className="flex gap-2 flex-wrap mb-2">
+                    {biz.website && (
+                      <span className="text-xs bg-[#D4A574]/10 text-[#D4A574] px-2.5 py-1 rounded-full">Website</span>
+                    )}
+                    {biz.phone && (
+                      <span className="text-xs bg-white/5 text-white/40 px-2.5 py-1 rounded-full">{biz.phone}</span>
+                    )}
+                  </div>
+                  <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-xs text-[#D4A574] hover:underline">📍 Get Directions</a>
                 </div>
-              </div>
-            </Link>
-          ))}
+              </a>
+            );
+          })}
         </div>
       </section>
 
@@ -144,17 +127,17 @@ export default function TanningSalonsPage() {
           <div className="flex items-center gap-2 font-semibold text-white/70">
             <span className="text-[#D4A574]">✦</span> Warner Robins Beauty Directory
           </div>
-          <nav className="flex gap-6">
-            <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
-            <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
-            <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
-            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
-            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
-            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
-            <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
-            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
-            <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
+          <nav className="flex gap-6 flex-wrap justify-center">
+            <a href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</a>
+            <a href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</a>
+            <a href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</a>
+            <a href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</a>
+            <a href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</a>
+            <a href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</a>
+            <a href="/tanning-salons" className="text-[#D4A574]">Tanning</a>
+            <a href="/about" className="hover:text-[#D4A574] transition-colors">About</a>
+            <a href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</a>
+            <a href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</a>
           </nav>
           <p>© {new Date().getFullYear()} warnerrobinsbeauty.com</p>
         </div>
