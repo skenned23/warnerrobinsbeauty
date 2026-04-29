@@ -1,13 +1,12 @@
 import fs from "fs";
 import path from "path";
-import Link from "next/link";
 import type { Metadata } from "next";
 import Navbar from "./components/Navbar";
 import FeaturedListing from "./components/FeaturedListing";
 
 export const metadata: Metadata = {
   title: "Warner Robins Beauty Directory — Salons, Spas & Waxing Near You",
-  description: "Find the best salons, spas, nail studios, and waxing specialists in Warner Robins, GA. Browse 80+ verified local beauty businesses with ratings and reviews.",
+  description: "Find the best salons, spas, nail studios, and waxing specialists in Warner Robins, GA. Browse 140+ verified local beauty businesses with ratings and reviews.",
 };
 
 interface Business {
@@ -28,6 +27,10 @@ interface BeautyData {
   "hair-salons": Business[];
   spas: Business[];
   "tanning-salons": Business[];
+  "medical-spas": Business[];
+  "barber-shops": Business[];
+  "eyelash-extensions": Business[];
+  "tattoo-shops": Business[];
 }
 
 function getData(): BeautyData {
@@ -54,12 +57,16 @@ function getTopRated(data: BeautyData, limit = 6) {
 
 const CATEGORIES = [
   { slug: "waxing", label: "Waxing", description: "Expert waxing salons for smooth, long-lasting results.", icon: "✦", count: 20 },
-  { slug: "hair-removal", label: "Hair Removal", description: "Laser, threading, and professional hair removal services.", icon: "◈", count: 9 },
   { slug: "nail-salons", label: "Nail Salons", description: "Manicures, pedicures, nail art, and gel services.", icon: "❋", count: 19 },
   { slug: "hair-salons", label: "Hair Salons", description: "Cuts, color, styling, and treatments for every hair type.", icon: "✿", count: 19 },
   { slug: "spas", label: "Spas", description: "Full-service spas for facials, massages, and relaxation.", icon: "◉", count: 13 },
-  { slug: "brazilian-wax", label: "Brazilian Wax", description: "Specialist Brazilian and bikini wax services nearby.", icon: "◆", count: null },
   { slug: "tanning-salons", label: "Tanning Salons", description: "UV tanning, spray tans, and airbrush services nearby.", icon: "☀", count: 8 },
+  { slug: "barber-shops", label: "Barber Shops", description: "Top-rated barbers for fades, cuts, and beard trims.", icon: "✂", count: 15 },
+  { slug: "lash-extensions", label: "Lash Extensions", description: "Classic, hybrid, and volume lash extensions nearby.", icon: "◐", count: 15 },
+  { slug: "medical-spas", label: "Medical Spas", description: "Botox, fillers, laser treatments, and advanced aesthetics.", icon: "✚", count: 15 },
+  { slug: "tattoo-shops", label: "Tattoo Shops", description: "Custom tattoos, piercings, and permanent makeup.", icon: "◈", count: 10 },
+  { slug: "hair-removal", label: "Hair Removal", description: "Laser, threading, and professional hair removal services.", icon: "◇", count: 9 },
+  { slug: "brazilian-wax", label: "Brazilian Wax", description: "Specialist Brazilian and bikini wax services nearby.", icon: "◆", count: null },
 ];
 
 function Stars({ rating }: { rating: number }) {
@@ -81,27 +88,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#0A0A0A] text-white font-sans">
 
-      {/* Nav */}
-      <header className="sticky top-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b border-white/5">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="text-[#D4A574] text-2xl">✦</span>
-            <span className="text-xl font-semibold tracking-tight">Warner Robins Beauty</span>
-          </Link>
-          <nav className="hidden md:flex gap-6 text-sm text-white/50">
-            <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
-            <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
-            <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
-            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
-            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
-            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
-            <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
-            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
-            <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
-          </nav>
-        </div>
-      </header>
+      <Navbar />
 
       {/* Hero */}
       <section className="relative overflow-hidden pt-12 pb-0 px-6">
@@ -117,19 +104,20 @@ export default function HomePage() {
             Your Local<br />Beauty <span className="text-[#D4A574]">Directory</span>
           </h1>
           <p className="text-white/50 text-xl max-w-xl mb-10 leading-relaxed">
-            Browse {Object.values(data).flat().length}+ verified salons, spas, and studios across Warner Robins — rated, reviewed, and ready to book.
+            Browse 140+ verified salons, spas, and studios across Warner Robins — rated, reviewed, and ready to book.
           </p>
           <div className="flex flex-wrap gap-3">
-            <Link href="/waxing" className="bg-[#D4A574] hover:bg-[#C4956A] text-black px-7 py-3.5 rounded-full text-sm font-semibold transition-colors">Waxing</Link>
-            <Link href="/nail-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Nails</Link>
-            <Link href="/hair-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Hair</Link>
-            <Link href="/spas" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Spas</Link>
-            <Link href="/hair-removal" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Hair Removal</Link>
-            <Link href="/brazilian-wax" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Brazilian Wax</Link>
-            <Link href="/tanning-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Tanning</Link>
+            <a href="/waxing" className="bg-[#D4A574] hover:bg-[#C4956A] text-black px-7 py-3.5 rounded-full text-sm font-semibold transition-colors">Waxing</a>
+            <a href="/nail-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Nails</a>
+            <a href="/hair-salons" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Hair</a>
+            <a href="/spas" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Spas</a>
+            <a href="/barber-shops" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Barbers</a>
+            <a href="/lash-extensions" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Lashes</a>
+            <a href="/medical-spas" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Med Spas</a>
+            <a href="/tattoo-shops" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Tattoos</a>
           </div>
           <div className="mt-8 pt-8 border-t border-white/5 flex flex-wrap gap-10 text-sm text-white/40">
-            {[["89+", "Verified Businesses"], ["7", "Beauty Categories"], ["Warner Robins", "GA & Surrounds"]].map(([val, label]) => (
+            {[["144+", "Verified Businesses"], ["11", "Beauty Categories"], ["Warner Robins", "GA & Surrounds"]].map(([val, label]) => (
               <div key={label}>
                 <span className="block text-white text-2xl font-bold mb-0.5">{val}</span>
                 <span>{label}</span>
@@ -150,7 +138,7 @@ export default function HomePage() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {CATEGORIES.map((cat) => (
-            <Link key={cat.slug} href={`/${cat.slug}`}
+            <a key={cat.slug} href={`/${cat.slug}`}
               className="group relative rounded-xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-[#D4A574]/30 p-6 transition-all duration-200">
               <div className="flex items-start justify-between mb-4">
                 <span className="text-[#D4A574] text-3xl leading-none">{cat.icon}</span>
@@ -159,7 +147,7 @@ export default function HomePage() {
               <h3 className="text-xl font-semibold mb-1 group-hover:text-[#D4A574] transition-colors">{cat.label}</h3>
               <p className="text-sm text-white/40 leading-relaxed">{cat.description}</p>
               <div className="mt-4 text-[#D4A574] text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">Browse all →</div>
-            </Link>
+            </a>
           ))}
         </div>
       </section>
@@ -173,7 +161,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {topRated.map((biz, i) => (
-              <Link key={biz.id || biz.name} href={`/${biz.id || biz.name.toLowerCase().replace(/\s+/g, "-")}`}
+              <a key={biz.id || biz.name} href={`/${biz.id || biz.name.toLowerCase().replace(/\s+/g, "-")}`}
                 className="group bg-white/[0.03] rounded-xl border border-white/5 hover:border-[#D4A574]/30 hover:bg-white/[0.06] p-6 transition-all duration-200">
                 <div className="flex items-start gap-4">
                   <span className="w-9 h-9 rounded-full bg-[#D4A574]/10 text-[#D4A574] flex items-center justify-center text-sm font-bold shrink-0">{i + 1}</span>
@@ -186,7 +174,7 @@ export default function HomePage() {
                     </div>
                   </div>
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
         </div>
@@ -215,16 +203,17 @@ export default function HomePage() {
             <span className="text-[#D4A574]">✦</span> Warner Robins Beauty Directory
           </div>
           <nav className="flex gap-6 flex-wrap justify-center">
-            <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
-            <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
-            <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</Link>
-            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
-            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
-            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
-            <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
-            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
-            <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
+            <a href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</a>
+            <a href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</a>
+            <a href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</a>
+            <a href="/spas" className="hover:text-[#D4A574] transition-colors">Spas</a>
+            <a href="/medical-spas" className="hover:text-[#D4A574] transition-colors">Medical Spas</a>
+            <a href="/barber-shops" className="hover:text-[#D4A574] transition-colors">Barbers</a>
+            <a href="/lash-extensions" className="hover:text-[#D4A574] transition-colors">Lashes</a>
+            <a href="/tattoo-shops" className="hover:text-[#D4A574] transition-colors">Tattoos</a>
+            <a href="/about" className="hover:text-[#D4A574] transition-colors">About</a>
+            <a href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</a>
+            <a href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</a>
           </nav>
           <p>© {new Date().getFullYear()} warnerrobinsbeauty.com</p>
         </div>
