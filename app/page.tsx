@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import type { Metadata } from "next";
-import Navbar from "../components/Navbar";
+import Navbar from "./components/Navbar";
 import FeaturedListing from "./components/FeaturedListing";
 
 export const metadata: Metadata = {
