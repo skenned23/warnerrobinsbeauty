@@ -11,6 +11,8 @@ const REVIEWS = [
   { text: "The best waxing place in Warner Robins.", author: "Phylisa H." },
 ];
 
+const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Waxology+Studio+154+S+Houston+Lake+Rd+%23200+Warner+Robins+GA+31088";
+
 export default function FeaturedListing() {
   const [current, setCurrent] = useState(0);
   const [fading, setFading] = useState(false);
@@ -94,6 +96,10 @@ export default function FeaturedListing() {
                     className="border border-[#D4A574]/20 text-[#D4A574] hover:bg-[#D4A574]/5 px-6 py-2.5 rounded-full text-sm font-medium transition-colors">
                     View Profile
                   </Link>
+                  <a href={MAPS_URL} target="_blank" rel="noopener noreferrer"
+                    className="border border-white/10 text-white/60 hover:text-[#D4A574] hover:border-[#D4A574]/30 px-6 py-2.5 rounded-full text-sm font-medium transition-colors">
+                    📍 Get Directions
+                  </a>
                 </div>
               </div>
 
