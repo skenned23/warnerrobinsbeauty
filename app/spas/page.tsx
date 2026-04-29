@@ -1,6 +1,5 @@
 import fs from "fs";
 import path from "path";
-import Link from "next/link";
 import type { Metadata } from "next";
 import Navbar from "../components/Navbar";
 
@@ -59,34 +58,14 @@ export default function SpasPage() {
   return (
     <main className="min-h-screen bg-[#0A0A0A] text-white">
 
-      {/* Nav */}
-      <header className="sticky top-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b border-white/5">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="text-[#D4A574] text-2xl">✦</span>
-            <span className="text-xl font-semibold tracking-tight">Warner Robins Beauty</span>
-          </Link>
-          <nav className="hidden md:flex gap-6 text-sm text-white/50">
-            <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
-            <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
-            <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="text-[#D4A574] font-medium">Spas</Link>
-            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
-            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
-            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
-            <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
-            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
-            <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
-          </nav>
-        </div>
-      </header>
+      <Navbar />
 
       {/* Hero */}
       <section className="relative py-16 px-6 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#1a0f0a] via-[#0A0A0A] to-[#0A0A0A]" />
         <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#D4A574] opacity-[0.06] blur-[100px]" />
         <div className="relative max-w-6xl mx-auto">
-          <Link href="/" className="text-[#D4A574] text-sm hover:underline mb-4 inline-block">← Back to Directory</Link>
+          <a href="/" className="text-[#D4A574] text-sm hover:underline mb-4 inline-block">← Back to Directory</a>
           <p className="text-[#D4A574] text-xs font-medium tracking-widest uppercase mb-2">Warner Robins, GA</p>
           <h1 className="text-4xl md:text-5xl font-bold mb-3">Spas in Warner Robins</h1>
           <p className="text-white/40 text-lg max-w-xl">
@@ -116,7 +95,7 @@ export default function SpasPage() {
             const slug = getSlug(biz);
             const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(biz.name + " " + biz.address)}`;
             return (
-              <Link key={biz.id || biz.name} href={`/${slug}`}
+              <a key={biz.id || biz.name} href={`/${slug}`}
                 className="group bg-white/[0.02] rounded-xl border border-white/5 hover:border-[#D4A574]/30 hover:bg-white/[0.05] overflow-hidden transition-all duration-200">
                 <div className="h-44 overflow-hidden relative">
                   {biz.photoUrl ? (
@@ -139,7 +118,7 @@ export default function SpasPage() {
                   {biz.phone && <p className="text-xs text-white/30 mb-1">{biz.phone}</p>}
                   <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-xs text-[#D4A574] hover:underline">📍 Get Directions</a>
                 </div>
-              </Link>
+              </a>
             );
           })}
         </div>
@@ -159,16 +138,16 @@ export default function SpasPage() {
             <span className="text-[#D4A574]">✦</span> Warner Robins Beauty Directory
           </div>
           <nav className="flex gap-6 flex-wrap justify-center">
-            <Link href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</Link>
-            <Link href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</Link>
-            <Link href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</Link>
-            <Link href="/spas" className="text-[#D4A574]">Spas</Link>
-            <Link href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</Link>
-            <Link href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</Link>
-            <Link href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</Link>
-            <Link href="/about" className="hover:text-[#D4A574] transition-colors">About</Link>
-            <Link href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</Link>
-            <Link href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</Link>
+            <a href="/waxing" className="hover:text-[#D4A574] transition-colors">Waxing</a>
+            <a href="/nail-salons" className="hover:text-[#D4A574] transition-colors">Nails</a>
+            <a href="/hair-salons" className="hover:text-[#D4A574] transition-colors">Hair</a>
+            <a href="/spas" className="text-[#D4A574]">Spas</a>
+            <a href="/hair-removal" className="hover:text-[#D4A574] transition-colors">Hair Removal</a>
+            <a href="/brazilian-wax" className="hover:text-[#D4A574] transition-colors">Brazilian Wax</a>
+            <a href="/tanning-salons" className="hover:text-[#D4A574] transition-colors">Tanning</a>
+            <a href="/about" className="hover:text-[#D4A574] transition-colors">About</a>
+            <a href="/contact" className="hover:text-[#D4A574] transition-colors">Contact</a>
+            <a href="/privacy" className="hover:text-[#D4A574] transition-colors">Privacy</a>
           </nav>
           <p>© {new Date().getFullYear()} warnerrobinsbeauty.com</p>
         </div>
