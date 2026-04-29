@@ -113,6 +113,7 @@ export default function SpasPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {sorted.map((biz) => {
             const slug = getSlug(biz);
+            const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(biz.name + " " + biz.address)}`;
             return (
               <Link key={biz.id || biz.name} href={`/${slug}`}
                 className="group bg-white/[0.02] rounded-xl border border-white/5 hover:border-[#D4A574]/30 hover:bg-white/[0.05] overflow-hidden transition-all duration-200">
@@ -134,8 +135,8 @@ export default function SpasPage() {
                       <span className="text-xs text-white/40">{biz.rating} ({biz.reviewCount?.toLocaleString()})</span>
                     </div>
                   )}
-                  {biz.phone && <p className="text-xs text-white/30">{biz.phone}</p>}
-                  <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(biz.name + " " + biz.address)}`} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="mt-3 inline-block text-xs text-[#D4A574] hover:underline">📍 Get Directions</a>
+                  {biz.phone && <p className="text-xs text-white/30 mb-1">{biz.phone}</p>}
+                  <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-xs text-[#D4A574] hover:underline">📍 Get Directions</a>
                 </div>
               </Link>
             );
