@@ -48,6 +48,21 @@ function getData(): Business[] {
   return JSON.parse(raw).categories["waxing"] as Business[];
 }
 
+function DirectionsLink({ name, address }: { name: string; address: string }) {
+  const url = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name + " " + address)}`;
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={(e) => e.stopPropagation()}
+      className="mt-3 inline-block text-xs text-[#D4A574] hover:underline"
+    >
+      📍 Get Directions
+    </a>
+  );
+}
+
 export default function BrazilianWaxPage() {
   const businesses = getData();
   const sorted = [...businesses].sort((a, b) => {
@@ -138,8 +153,9 @@ export default function BrazilianWaxPage() {
                       <span className="text-xs text-white/40">{biz.rating} ({biz.reviewCount?.toLocaleString()})</span>
                     </div>
                   )}
-                  {biz.phone && <p className="text-xs text-white/30">{biz.phone}</p>}
-                  <a href={`http<a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(biz.name + " " + biz.address)}`} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="mt-3 inline-block text-xs text-[#D4A574] hover:underline">📍 Get Directions</a>
+                  {biz.phone && <p className="text-xs text-white/30 mb-1">{biz.phone}</p>}
+                  <DirectionsLink name={biz.name} address={biz.address} />
+                </div>
               </Link>
             );
           })}
