@@ -98,7 +98,7 @@ export default function HairSalonsPage() {
       <section className="border-b border-white/5 bg-white/[0.02]">
         <div className="max-w-6xl mx-auto px-6 py-4 flex flex-wrap gap-3">
           {["Haircut", "Balayage", "Color", "Blowout", "Braids", "Extensions", "Keratin", "Natural Hair"].map((s) => (
-            <span key={s} className="text-xs bg-white/5 text-white/50 border border-white/10 px-3 py-1.5 rounded-full">{s}</span>
+            <span key={s} className="text-xs bg-white/5 text-white/40 px-2.5 py-1 rounded-md">{s}</span>
           ))}
         </div>
       </section>
