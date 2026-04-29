@@ -134,8 +134,8 @@ export default function HairSalonsPage() {
                       <span className="text-xs text-white/40">{biz.rating} ({biz.reviewCount?.toLocaleString()})</span>
                     </div>
                   )}
-                  {biz.phone && <p className="text-xs text-white/30">{biz.phone}</p>}
-                  <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(biz.name + " " + biz.address)}`} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="mt-3 inline-block text-xs text-[#D4A574] hover:underline">📍 Get Directions</a>
+                  {biz.phone && <p className="text-xs text-white/30 mb-1">{biz.phone}</p>}
+                  <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(biz.name + " " + biz.address)}`} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-xs text-[#D4A574] hover:underline">📍 Get Directions</a>
                 </div>
               </Link>
             );
