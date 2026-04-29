@@ -55,7 +55,7 @@ function DirectionsLink({ name, address }: { name: string; address: string }) {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      onClick={(e) => e.stopPropagation()}
+
       className="mt-3 inline-block text-xs text-[#D4A574] hover:underline"
     >
       📍 Get Directions
