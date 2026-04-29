@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import Navbar from "../components/Navbar";
 
 export const metadata: Metadata = {
   title: "Contact — Warner Robins Beauty Directory",

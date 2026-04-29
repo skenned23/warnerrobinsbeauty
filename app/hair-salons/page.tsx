@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import type { Metadata } from "next";
+import Navbar from "../components/Navbar";
 
 export const metadata: Metadata = {
   title: "Hair Salons in Warner Robins, GA — Best Hair Stylists Near You",
