@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import type { Metadata } from "next";
 import Navbar from "../components/Navbar";
+import BusinessCard from "../components/BusinessCard";
 
 export const metadata: Metadata = {
   title: "Tanning Salons in Warner Robins, GA — Best Tanning Near You",
@@ -28,24 +29,11 @@ function getData(): Business[] {
   return data.categories["tanning-salons"] || [];
 }
 
-function Stars({ rating }: { rating: number }) {
-  const full = Math.floor(rating);
-  const half = rating - full >= 0.5;
-  return (
-    <span className="flex gap-0.5 text-[#D4A574]">
-      {Array.from({ length: 5 }, (_, i) => (
-        <span key={i} className={i < full ? "opacity-100" : half && i === full ? "opacity-60" : "opacity-20"}>★</span>
-      ))}
-    </span>
-  );
-}
-
 export default function TanningSalonsPage() {
   const businesses = getData();
 
   return (
     <main className="min-h-screen bg-[#0A0A0A] text-white font-sans">
-
       <Navbar />
 
       {/* Hero */}
@@ -70,38 +58,9 @@ export default function TanningSalonsPage() {
       {/* Listings */}
       <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {businesses.map((biz) => {
-            const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(biz.name + " " + biz.address)}`;
-            return (
-              <a key={biz.id} href={`/${biz.id}`}
-                className="group bg-white/[0.02] rounded-xl border border-white/5 hover:border-[#D4A574]/30 hover:bg-white/[0.05] overflow-hidden transition-all duration-200">
-                {biz.photoUrl && (
-                  <div className="h-40 overflow-hidden">
-                    <img src={biz.photoUrl} alt={biz.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                  </div>
-                )}
-                <div className="p-5">
-                  <h2 className="font-semibold text-lg mb-1 group-hover:text-[#D4A574] transition-colors">{biz.name}</h2>
-                  <p className="text-xs text-white/30 mb-3">{biz.address}</p>
-                  {biz.rating && (
-                    <div className="flex items-center gap-2 mb-3">
-                      <Stars rating={biz.rating} />
-                      <span className="text-xs text-white/40">{biz.rating} ({biz.reviewCount?.toLocaleString()})</span>
-                    </div>
-                  )}
-                  <div className="flex gap-2 flex-wrap mb-2">
-                    {biz.website && (
-                      <span className="text-xs bg-[#D4A574]/10 text-[#D4A574] px-2.5 py-1 rounded-full">Website</span>
-                    )}
-                    {biz.phone && (
-                      <span className="text-xs bg-white/5 text-white/40 px-2.5 py-1 rounded-full">{biz.phone}</span>
-                    )}
-                  </div>
-                  <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-xs text-[#D4A574] hover:underline">📍 Get Directions</a>
-                </div>
-              </a>
-            );
-          })}
+          {businesses.map((biz) => (
+            <BusinessCard key={biz.id} biz={biz} />
+          ))}
         </div>
       </section>
 
@@ -142,7 +101,6 @@ export default function TanningSalonsPage() {
           <p>© {new Date().getFullYear()} warnerrobinsbeauty.com</p>
         </div>
       </footer>
-
     </main>
   );
 }
