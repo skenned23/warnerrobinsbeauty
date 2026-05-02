@@ -84,7 +84,23 @@ export default function WaxingPage() {
           <p>For Brazilian wax specialists, Waxology Studio on Houston Lake Road is consistently ranked among the top in the region with a 4.7 rating and over 113 reviews. Other popular options include Southern Charm Waxing Co. in Bonaire and The Wax Strip in Kathleen — both within a short drive of Warner Robins.</p>
         </div>
       </div>
-
+{/* Related Categories */}
+<section className="max-w-6xl mx-auto px-6 py-12 border-t border-white/5">
+  <h2 className="text-xl font-bold mb-6">Explore Related Beauty Services in Warner Robins</h2>
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    {[
+      { slug: "brazilian-wax", label: "Brazilian Wax" },
+      { slug: "hair-removal", label: "Hair Removal" },
+      { slug: "spas", label: "Spas" },
+      { slug: "nail-salons", label: "Nail Salons" },
+    ].map((cat) => (
+      <a key={cat.slug} href={`/${cat.slug}`}
+        className="bg-white/[0.03] border border-white/5 hover:border-[#D4A574]/30 rounded-xl p-4 text-center hover:text-[#D4A574] transition-all">
+        {cat.label}
+      </a>
+    ))}
+  </div>
+</section>
       {/* Footer */}
       <footer className="border-t border-white/5 py-10 px-6 mt-12">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-white/30">
