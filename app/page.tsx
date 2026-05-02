@@ -101,7 +101,7 @@ export default function HomePage() {
             Warner Robins, Georgia
           </div>
           <h1 className="text-5xl md:text-7xl font-bold leading-[1.05] mb-6 max-w-3xl">
-            Your Local<br />Beauty <span className="text-[#D4A574]">Directory</span>
+            Warner Robins<br />Beauty <span className="text-[#D4A574]">Directory</span>
           </h1>
           <p className="text-white/50 text-xl max-w-xl mb-10 leading-relaxed">
             Browse 140+ verified salons, spas, and studios across Warner Robins — rated, reviewed, and ready to book.
