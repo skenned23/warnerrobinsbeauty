@@ -19,6 +19,8 @@ const moreLinks = [
   { href: "/barber-shops", label: "Barber Shops" },
   { href: "/medical-spas", label: "Medical Spas" },
   { href: "/tattoo-shops", label: "Tattoos" },
+  { href: "/hair-extensions", label: "Hair Extensions" },
+  { href: "/massage-therapy", label: "Massage Therapy" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
   { href: "/privacy", label: "Privacy" },
