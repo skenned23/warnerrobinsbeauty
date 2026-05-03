@@ -67,6 +67,8 @@ const CATEGORIES = [
   { slug: "tattoo-shops", label: "Tattoo Shops", description: "Custom tattoos, piercings, and permanent makeup.", icon: "◈", count: 10 },
   { slug: "hair-removal", label: "Hair Removal", description: "Laser, threading, and professional hair removal services.", icon: "◇", count: 9 },
   { slug: "brazilian-wax", label: "Brazilian Wax", description: "Specialist Brazilian and bikini wax services nearby.", icon: "◆", count: null },
+  { slug: "hair-extensions", label: "Hair Extensions", description: "Tape-in, sew-in, clip-in, and custom hair extensions.", icon: "✧", count: 20 },
+  { slug: "massage-therapy", label: "Massage Therapy", description: "Swedish, deep tissue, prenatal, and couples massage.", icon: "◎", count: 20 },
 ];
 
 function Stars({ rating }: { rating: number }) {
