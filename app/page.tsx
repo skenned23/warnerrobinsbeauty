@@ -119,7 +119,7 @@ export default function HomePage() {
             <a href="/tattoo-shops" className="border border-white/10 hover:border-[#D4A574]/50 text-white/60 hover:text-[#D4A574] px-7 py-3.5 rounded-full text-sm font-medium transition-colors">Tattoos</a>
           </div>
           <div className="mt-8 pt-8 border-t border-white/5 flex flex-wrap gap-10 text-sm text-white/40">
-            {[["144+", "Verified Businesses"], ["11", "Beauty Categories"], ["Warner Robins", "GA & Surrounds"]].map(([val, label]) => (
+            {[["144+", "Verified Businesses"], ["13", "Beauty Categories"], ["Warner Robins", "GA & Surrounds"]].map(([val, label]) => (
               <div key={label}>
                 <span className="block text-white text-2xl font-bold mb-0.5">{val}</span>
                 <span>{label}</span>
