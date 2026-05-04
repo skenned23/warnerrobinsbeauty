@@ -103,7 +103,7 @@ export default function TanningSalonsPage() {
         <h2 className="text-xl font-bold mb-6">Explore Related Beauty Services in Warner Robins</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
-            { slug: "spas", label: "Spas" }, OK all right And then I'm going to do the bacon If you can show me how to do that I'll do the I'll do the bacon
+            { slug: "spas", label: "Spas" }, 
             { slug: "medical-spas", label: "Medical Spas" },
             { slug: "waxing", label: "Waxing" },
             { slug: "nail-salons", label: "Nail Salons" },
