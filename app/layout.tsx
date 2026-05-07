@@ -37,6 +37,11 @@ export const metadata: Metadata = {
     url: "https://warnerrobinsbeauty.com",
     siteName: "Warner Robins Beauty",
     type: "website",
+    images: [
+      {
+        url: "https://warnerrobinsbeauty.com/WRB_Facebook_Cover.png",
+      }
+    ],
   },
 };
 
