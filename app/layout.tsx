@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     "brazilian wax warner robins",
     "hair salon warner robins",
   ],
+  alternates: {
+    canonical: "https://warnerrobinsbeauty.com",
+  },
   openGraph: {
     title: "Warner Robins Beauty Directory",
     description:
