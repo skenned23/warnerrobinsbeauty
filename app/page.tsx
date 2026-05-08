@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import FeaturedListing from "./components/FeaturedListing";
 
 export const metadata: Metadata = {
-  title: "Warner Robins Beauty Directory — Salons, Spas & Waxing Near You",
+  title: "Warner Robins Beauty Directory — Salons & Waxing Near You",
   description: "Find the best salons, spas, nail studios, and waxing specialists in Warner Robins, GA. Browse 140+ verified local beauty businesses with ratings and reviews.",
 };
 
