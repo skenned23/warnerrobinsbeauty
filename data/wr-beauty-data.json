@@ -119,7 +119,7 @@
           "hair_care",
           "point_of_interest"
         ],
-        "photoUrl": "https://lh3.googleusercontent.com/p/AF1QipO99Ez7voPS6yinQVMbzdejd5m1GO2hAEdz0dRM"
+        "photoUrl": "/waxology.jpg"
       },
       {
         "id": "southern-charm-waxing-co",
@@ -131,7 +131,7 @@
         "website": "http://www.southerncharmwaxing.com/",
         "rating": 4.8,
         "reviewCount": 161,
-        "hours": [
+        "hours": 
           "Monday: Closed",
           "Tuesday: 10:00 AM – 7:00 PM",
           "Wednesday: 10:00 AM – 7:00 PM",
