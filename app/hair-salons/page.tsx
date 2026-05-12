@@ -3,6 +3,7 @@ import path from "path";
 import type { Metadata } from "next";
 import Navbar from "../components/Navbar";
 import BusinessCard from "../components/BusinessCard";
+import RelatedCategories from "../components/RelatedCategories";
 
 export const metadata: Metadata = {
   title: "Hair Salons in Warner Robins, GA — Best Hair Stylists Near You",
@@ -84,23 +85,7 @@ export default function HairSalonsPage() {
         </div>
       </div>
 
-      {/* Related Categories */}
-      <section className="max-w-6xl mx-auto px-6 py-12 border-t border-white/5">
-        <h2 className="text-xl font-bold mb-6">Explore Related Beauty Services in Warner Robins</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {[
-            { slug: "nail-salons", label: "Nail Salons" },
-            { slug: "hair-extensions", label: "Hair Extensions" },
-            { slug: "barber-shops", label: "Barber Shops" },
-            { slug: "spas", label: "Spas" },
-          ].map((cat) => (
-            <a key={cat.slug} href={`/${cat.slug}`}
-              className="bg-white/[0.03] border border-white/5 hover:border-[#D4A574]/30 rounded-xl p-4 text-center hover:text-[#D4A574] transition-all">
-              {cat.label}
-            </a>
-          ))}
-        </div>
-      </section>
+      <RelatedCategories current="hair-salons" />
 
       {/* Footer */}
       <footer className="border-t border-white/5 py-10 px-6 mt-12">
