@@ -60,7 +60,7 @@ export default function TanningSalonsPage() {
       <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {businesses.map((biz) => (
-            <BusinessCard key={biz.id} biz={biz} />
+            <BusinessCard key={biz.id || biz.name} biz={biz} />
           ))}
         </div>
       </section>
