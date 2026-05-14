@@ -10,6 +10,7 @@ const mainLinks = [
   { href: "/hair-salons", label: "Hair" },
   { href: "/spas", label: "Spas" },
   { href: "/tanning-salons", label: "Tanning" },
+  { href: "/blog", label: "Blog" },
 ];
 
 const moreLinks = [
