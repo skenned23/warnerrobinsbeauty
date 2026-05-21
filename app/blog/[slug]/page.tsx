@@ -11,7 +11,7 @@ function getPost(slug: string) {
   if (!fs.existsSync(filePath)) return null;
   const raw = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(raw);
-  return { title: data.title || slug, date: data.date || "", content };
+  return { title: data.title || slug, date: data.date || "", image: data.image || "", content };
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -56,7 +56,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       <div className="max-w-3xl mx-auto px-6 py-16">
         <Link href="/blog" className="text-sm text-[#D4A574]/60 hover:text-[#D4A574] transition-colors mb-8 block">← Back to Blog</Link>
         <p className="text-xs text-[#D4A574]/60 uppercase tracking-widest mb-4">{post.date}</p>
-        <h1 className="text-4xl font-bold mb-12">{post.title}</h1>
+        <h1 className="text-4xl font-bold mb-8">{post.title}</h1>
+{post.image && <img src={post.image} alt={post.title} className="w-full rounded-xl mb-12" />}
         <div className="prose prose-invert prose-headings:text-white prose-p:text-white/70 prose-a:text-[#D4A574] prose-strong:text-white prose-li:text-white/70 max-w-none">
           <ReactMarkdown>{post.content}</ReactMarkdown>
         </div>
